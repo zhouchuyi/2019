@@ -1,0 +1,125 @@
+directory pathondisk.length undefined happens 0 ok set artifact download sizes directory right
+really need change 69560 remove anyway
+really need reason see performance instantiate messagedigest might costly throw fnfe also free next statement
+done
+done
+done
+done
+done
+sorry late seems dialog non-resizable right
+nit pick unrelated change
+nit picking unrelated change
+nit pick
+nit pick
+nit picking unrelated change
+repeat http //www.c2.com/cgi/wiki dontrepeatyourself yes old know c2.com
+rename 'get
+would deffer adding knob till someone _really_ needs files bug
+typo 'dowloadeds
+done
+style nit pick unrelated change
+looks like runtime/test-time dependency droped
+org.apache.log4j
+start -1 vs 'start 1
+currently favor require-bundle eclipse rcp world see r-b legacy pre-equinox era import-package better r-b prevent bundle running osgi environment repackaged junit i.e. bundle 'my.company.unittests provides junit testng mockito etc single bundle exports packages org.junit org.testng others +1 import-package makes reuse easier
+please keep subject short common practice add preference pages snipmatch local search module include local snippets directory setting index file 9 setting ui remove useless annotate code snippets
+know mean plain gerrit comment find texts change right text commit message comment 2 contains statement authorship bottom page 'comments section 'expand comments 'll find discussion marcel topic mean remove commit message may add legal stuff submitting _comment_ change press 'review button add legal statement 'cover message field submit 're done marcel told add commit message confused see told thing putting clause commit message commit messages developers primarily trying understand reasons behind specific change would mine git history find relevant commit reading helpful commit message real pleasure developer read legal stuff
+would better move commit message plain gerrit comment see change https //git.eclipse.org/r/ /c/5238/ details
+preferences may handled safely processes running silmultaniously two eclipse instances running workspace yes sure
+would say bad default preferences eclipse-specific stored eclipse-specific locations otoh storing per-workspace makes impossible reuse repositories/indexes different workspaces disk space ability create/drop new workspaces without thinking twice online/whatsoever
+ouch sorry 'll take look
+markus make sense define source code formatter rules part project configuration eliminate issues future
+looks bit cleaner using life-cycle mapping specific recommended btw solution 'problem unique m2e think using profile good idea available outside m2e context makes sense i.e command-line ci builds later someone integrate jacoco maven plugin m2e would change specific configuration accordingly bottom line profiles good builds outside eclipse lifecycle mapping eclipse m2e wdyt
+see last comment
+see last comment
++1 refactoring general unrelated main goal current changeset could move separate independent changeset
+.internal usage gitprojectsetcapability yes default access level class constructor would better express ths fact internal use api explicitly
+simple refactoring aka extract class logic different original one changes original functionality
+mix fixes different problems single commit
+make sense create public
+constructor accepts uri parameter
+return null force user *always* check null much better though
+would using constants gitfetchtaskfactory introduce new dependency egit right sure bad thing add dependency vs 'magic string
+constants o.e.team replace path tag project 'magic strings
+could change direction dependency declare constants gituri use gitfetchtaskfactory case intent gituri class make egit-pde happy class logic dependent values
+please reflect allowed comment method name
+may gituri deserves test
+go gituri test
+make sense extract if-else aka shortening logic separate class unit test
+yes maven download snapshots snapshots/enabled=true maven local repository shared many different projects -snapshots satisfy given version range maven may pick version voila unreproducibe build
+style nitpick
+would name smth like createfromvalidstring avoiding test* pattern
+would also use single assert per test way clear one problem cause one one broken test problems asserts 1 4 test break 1 fix first 'll find another problem
+good catch robin +1
+nothing
+anyone able create new instance reference instead gitprojectsetcapability would rather make package-level
++1 removal
+sure public modifier version field represents reference implementation details doubt consumers would really interested would leave private even remove unless real usecase requires access value making private later would hard due api breakage make public later without problems
+use default level method available org.eclipse.egit.core package ok. removing field line 69 obvious value expect first token removing field document explicitly somewhere keep sync etc better documentation code please leave inplace
+also change introduces findbugs warning file projectreference.java line 108 type uwf_unwritten_field priority normal
+populated otherwise getter useless
+exactly placed todo +1 asking user clone -1 implementation pov
+may itt would better start scratch 1.0 actualy first version reference format
+bug gerrit displaying diff file line 5 new version please ignore previous comment
+second instance 'bin.includes removed changes lines 3-4 works
+please add target jre see https //github.com/manandbytes/org.eclipse.mylyn.github/commit/75b942d9263a94ed55c3747a4acdd49e319c9882 reference
+one white-space-only change right
+please provide specific method name seems fail due extra hostname path right
+please fix whitespace errors
+whitespace error
+need arguments mentioned right much better commit message least
+conflict markers
+objectid parentid null remove else
+please provide constant least text.delimiter + change-id even full change-id string like text.delimiter + change-id + change_id_regex
+method contract comes org.eclipse.equinox.p2.internal.repository.tools.abstractapplication javadoc caller would expect implementations would use monitor report progress back two implementations compositerepositoryapplication mirrorapplication break contract using monitor reporting progress caller would surprised fact missing something iprogressmonitor javadoc
+bad completely forgot x-friends eclipse-specific extension order safe side agree leaving method marked deprecated noticable non-pde environments ok restore method mark deprecated increasing major version segment havy change
+know whether people using wild thus change potential break many downstream according manifest class available p2 bundles org.eclipse.equinox.p2.updatesite org.eclipse.equinox.p2.publisher.eclipse export-package org.eclipse.equinox.spi.p2.publisher x-friends org.eclipse.equinox.p2.updatesite org.eclipse.equinox.p2.publisher.eclipse
+statically registered built-in implementation implementations
+remove negation isremoterepository location
+oops breaks build java7 feature java6 bundle move java6
+find way trigger provider bundle activation
+part project egit/egit-github egit
+could try use tycho 0.17.0 support multiple targets target-platform-configuration i264b8526912181c8f249b03455454e2f90ab932d http //wiki.eclipse.org/tycho/target_platform target_files
+checksumutilities decide checksums calculated need change calculatechecksums signature adding white-list checksums black-list
+private boolean hasconflicts
+getter actually makes sense hasconflicts private
+would drop else clause smth like boolean hasconflicts isprojectinworkspace selectedprojects .getprojectname selectedprojects .hasconflicts hasconflicts hasconflicts validprojects.add selectedprojects
+replacing else clause default like previous comment
+sure needed works machine running linux
+according https //wiki.eclipse.org/eclipse/testing using_easymock eclipse galileo release utility easymock added platform test framework
+drop mailto please
+inconsistent use 'final keyword inside method
+move inside try block
+two lines inside try
+return statement last statement void method
+please fix 'tab vs space changes
+may nitpick anyway line actually changed
+trailing whitespace
+mixed space/tabs
+mixed spaces/tabs
+trailing whitespace
+another one
+trailing whitespace
+mvn -p platform-indigo clean verify info requested install 'org.eclipse.mylyn.context.sdk.feature.group 0.0.0 could found
+could use 3.6
+mvn -p platform-galileo clean verify fails info software installed org.eclipse.jetty.bundles.f.feature.group 8.1.0 missing requirement org.eclipse.jetty.nosql 8.1.1.v20120215 requires 'package com.mongodb 0.0.0 could found satisfy dependency org.eclipse.jetty.bundles.f.feature.group 8.1.0 depends org.eclipse.jetty.nosql 8.1.1.v20120215
+'mvn -p platform-helios clean verify info software installed org.eclipse.jetty.bundles.f.feature.group 8.1.0 missing requirement org.eclipse.jetty.nosql 8.1.1.v20120215 requires 'package com.mongodb 0.0.0 could found satisfy dependency org.eclipse.jetty.bundles.f.feature.group 8.1.0 depends org.eclipse.jetty.nosql 8.1.1.v20120215
+unused jetty-site orbit-site removed
+fails see last comment i36f2add2
+mvn -p platform-juno clean verify info software installed org.eclipse.egit.ui.test 2.0.0.qualifier missing requirement org.eclipse.jgit.junit.http 2.0.0.201204061642 requires 'package org.eclipse.jetty.continuation 7.1.0,7.6.0 could found satisfy dependency org.eclipse.egit.ui.test 2.0.0.qualifier depends package org.eclipse.jgit.junit.http 2.0.0,2.1.0
+could find corresponding org.eclipse.core.filesystem.filesystems scheme=git
+original comment places patcheset 2 stays draft forever fix 372020 break current implementation make sense implement org.eclipse.core.filesystem.filesystems right
+rdk sdk
+change sequencenumber may ignored
+java7 real requirement test project
+due 'origin field never read locally error see next comment
+generic use case instance 've checked project fork github trying check original codebase org.eclipse using provided psf dealing two different local repositories codebase case seems unhandy would better try add new origin existing local repo fetch repository specified psf
+leftover original implementation treeset-based
+sure handled waiting feedback http //wiki.eclipse.org/egit/user_guide/project_set_file same_branch_vs_individual_branches
+original intent define/show/discuss project reference format i.e need version like cvs 1.0|git single branch per repo vs individual branch per project args4j jsch may better way would target platform definition
+remove sources mylyn sdk
+remove source extra dependencies
+test violates rule exactly one test fail given bug would better split 5 individual tests
+good question lot java code takes style check null throws npe rather iae instead referencing lot code use npe javadoc let npe
+npe make sense would better use iae
+one trailing whitespace shawn matthias would dissappointed

@@ -1,0 +1,192 @@
+files :isregularfile
+reading comment looks like precise enough basically thinking something like packedreflist oldpackedlist refdb.isinclone locks locklooserefs pending locks null return oldpackedlist refdb.pack locks else oldpackedlist refdb.getpackedrefs
+locks non-null entered block reached line 187 188 place also guaranteed non-null therefore move code line 187 remove check
+unnecessary initialization
+rewrite supportsatomiccreatenewfile ret null ret
+done
+done
+done
+could replaced something like bytebuffer buf io.readwholestream bis 1024
+see ps-6 push work forgot commit something
+decodes byte array using platform default character set could cause unexpected failures platforms provide fixed character set decoding
+using bytebuffer intuitive seemed problem using bytebuffer.array method returns whole array bytes wrote debugged ps5 found tests failing different string length make use position limit etc.. methods bytearray order get bytes wrote time provide fix yes merge as-is later find solution bytebuffer
+really sure proceed matthias would right person answer question vacation days hand likely users api favor changing existing method
+want return largefilerepository order support multiple lfs backends since already getlargefilerepository method line 87 propose change signature protected abstract largefilerepository getlargefilerepository lfsrequest request string path pass two parameters calling place line 131 line 132 already handles returned null value properly
+yes seems simplest way write current stack trace log
+looks good would propose always double waiting time previous loop iteration i..e 1 2 4 8 16 1024 total sum 2^11-1 2048-1 =~ 2 seconds means next loop iteration waits long previous iterations waited plus one ms means repo removed n milliseconds wait another n milliseconds loop less busy
+done small modifications need compute math.pow 2 every iteration
+last sleep last loop iteration t=2^10 make sense loop exit immediately fail .. invoked swap order first sleep check
+done
++1 eliminates one variable
+really need explicit configuration delay undefined could derive reasonable default expiration time example delay min expireafter 10 10 minutes delay explicitly given honor could also validate shorter expireafter
+done
+correct 4.4 4.4.1 exactly sure matthias said would ok add new api
+done
+assuming servlet singleton one instance filelfsrepository use however filelfsrepository seem thread safe private atomicobjectoutputstream instance member two thread would uploading large files would set single instance
+want make absolutely sure called eofreached true yes finally block
+optional sure naming pattern optimal name could also read large file-object repository i.e stores large file-objects specialization storing objects parent interface would favor following naming interface largefilerepository class plainfsrepository implements largefilerepository class fsbasedrepository implements largefilerepository
++6 byte represented two hex digits two slashes 6 characters including second slash c0/ff/coffee
+remove first two bytes 4 digits name like git loose objects storage example previous comment would look like c0/ff/ee total length line 150 would match exactly two additional slashes
+meaning date/time 2010 new file question couple files change
+description next line formatting strange probably according jgit coding standards
+final
+final
+optional existing jgit code seems use req/rsp names httpservletrequest/httpservletresponse
+1 + long_object_id_string_length clearer /sha-256
+done
+done
+done
+done
+private already change first introduced
+also done change option introduced
+previous comment
+looks like mandatory using s3 see checkoptions method one reason introduce subcommands let args4j enforce mandatory options/arguments mandatory parameters usually better given arguments requires less typing
+options allowed s3 store type however express clearly using args4j annotations good approach add subcommands store type subcommand defines supported options case would look like example jgit debug-lfs-store s3 -- region -- bucket jgit debug-lfs-store plainfs -- port dir
+done
+vim
+done
+sure without changing code try-catch block basically test would mock static packindex.open method mock would throw interruptedioexception looks like jgit tests make use mocking framework however open proposal test
+newline needed beginning line stay move 565 566
+strange fstick based last-modified attribute temporary file file system create temporary file keep touch-ing last-modified changes return ensures b newer wrt last-modified could try two things test fails machine please check last-modified time blobs b test git repository may need comment teardown method order prevent deletion test repository try following change test code remove gc.setexpire line 232 use last-modified blob b expiration date means add gc.setexpire new date lastmodified b line 326. let know makes test stable platform
+method prunes loose objects reachable objects written new pack file delete old pack files
+looks like want test objectstokeep.contains id instead objectstokeep.contains id
+loose object found pack deleted loose object reachable repack method put new pack means prune method never prune non-reachable loose objects right either bug method named something like deletepackedlooseobjects
+need packheads packrest enough pack objects reachable valid reference one step
+method private
+method private
+use collections.emptyset typesafe replacement collections.emtpy_set need cast
+also replace collections.emptyset
+method private
+method private
+day smallest unit specifying expire parameter -- expire option native git understands also options like -- expire=1.minute -- expire=10.seconds -- expire=2.hours makes hard writing automated tests would like create two non-reachable objects object creation-time t1 b t2 specify -- expire t1 t2 check pruned b pruned want deal time-unit strings like 1.minute would propose use long expire java.util.date expire number milliseconds since jan 1st 1970 utc objects older non-reachable objects older 'expire timestamp candidates pruning
+could another constructor without expirearemillis would initialize expireagemillis 2 weeks user api would convenient way stick default value
+tests show deleted object still stays objectdirectory.unpackedobjectcache prune use instance filerepository passed prune call hasobject method return true loose object deleted
+expireagemillis think wrong syntax javadoc eclipse put mouse call method expireagemillis present text code expireagemillis /code also think large part javadoc belongs param expireagemillis
+text externalized patch-set 2. exception class could make sense
+done
+done inflateandskip understood right even try avoid inflating delta block whose inflated size exceeds maxobjectsizelimit since also adding check obj_ref_delta also beginning whole method wonder even better check sz switch statement checkiftoolarge sz switch typecode make sense
+done
+gave reporting sha1 back user expensive
+gave reporting sha1
+done
+done
+done
+done actually another insertion needed delta inflated result size read 2 instead 4 insertions
+done
+copied part comment commit message nicely summarized reason behind checking size delta instruction sequence
+done
+done
+provide two versions error message one include object size limit size one used object size known i.e whole object pack inflate delta block read result size one used find delta size already big want inflate case limit size included error message
+typo either tests added test added
+looks like test testfastforwardwithfiles test
+style-nit trailing whitespace
+style-nit trailing whitespace
+need 0 placeholder file name
+need 0 placeholder file name
+assume meant block decorate moved run createwalk nothing calling super.createwalk removed know understood correctly
+done
+done
+right reuse revwalk found ca find objectreader base class es
+done
+getnotemap returns null put notemaps done
+done
+done put nulls notemaps
+done
+done delta class smaller delta leafbuckettest larger must use getnote .getdata instead get method
+done
+done
+done
+done
+done
+done
+right need writetree actually removing method call revealed bug addifnotnull method caused notemapmergertest.testcollapsefanoutaftermerge fail missing tree child parameter addifnotnull instance inmemorynotebucket added fanout bucket using setbucket method void setbucket int cell inmemorynotebucket bucket adding using child.gettreeid causes estimatesize method fail finds lazynotebucket cell tree object exist git object database
+ok made configurable however complicated implementation method bit distinguish case configured mergestrategy instanceof threewaymergestrategy know possible implementation using base mergestrategy interface
+done
+done
+done
+done
+done
+done
+copy/paste error basenote null case add
+done
+done
+root null supported checked noteparser case root null
+done
+use removed
+done
+done
+done
+done
+done
+done
+made note class public expose constructor setdata method sure really necessary note instances read-only outside package
+done
+done
+found inheritdoc used anywhere jgit would make exception
+done
+done
+done
+done
+done
+done
+done
+hmm.. would fit public void set anyobjectid noteon objectid notedata notemap interface method become public void add note note
+actually splitting old commit mistake change wrong commit i.e commit note merge done
+reset needed javadoc treewalk says reset necessary treewalk object reused used
+done
+done
+without eclipse gives warnings lines 140 147 discouraged access type 'closeablehttpclient api discouraged access type 'httpclientbuilder api discouraged access method 'closeablehttpclient.execute httpurirequest api
+still using mars 4.5.1
+squashing changes push soon could also enhance configuration repositorycache.reconfigure schedule cleanup task repositorycacheconfig.delay 0. feature would also provide compatibility old behavior repository gc-ed jvm decides
+test code looks mostly ok. understanding could happen cache.clearallexpired gets called workqueue assert seems unlikely happen initial delay set 10 seconds test likely finish much faster however repositorycache class gets loaded test runs another test initialize static members including repositorycache.cache constructor schedule cleanup task 10/10 seconds rate happens 10 seconds test executed cleanup task could interfere test right
+may reliable test assuming eviction task run time may wrong high cpu usage environment
+could call repositorycache.close expiredrepo verify removed repositorycache make sense expiration check part repositorycache.close method code part scheduled runnable make testable could move check new method repositorycache.closeifexpired call method scheduled runnable
+sleep bit longer 100ms guarantee anything makes probability test failing bit lower however test also getting slower rework workqueue set testing executor would use directexecutor one would prefer maybe another suggestion sure really good solution think really want test repository expired gets removed repositorycache could call repositorycache.close expiredrepo verify removed repositorycache may also want test expired repository *eventually* gets removed repositorycache i.e repository.close called could wrap mock repository expect/wait call another thread close method timeout long wait however time call come within configured time test wait longer necessary another aspect may want test repositorycacheconfig properly configures executor would likely require rework workqueue set custom executor setting mock expects call schedulewithfixeddelay values configured repositorycacheconfig *probably want* test java.util.concurrent.scheduledthreadpoolexecutor works properly i.e runs tasks scheduled rate tested jdk code
+precisely window cache entries pack file repository gets removed windowcache
+private final
+line check line 885 atomic worst case code may skip calling doclose line 888. example usecnt 1 two threads call close time decrementandget reaches line 885 usecnt -1 doclose skipped
+checked usecnt reached zero
+add test concurrently opens closes cached repo
+fit previous line
+static
+condition true current thread call repo.doclose line 198. however another thread calls repositorycache.open repo name thread reaches line 198 get repo instance doclose line 198
+still window vulnerability usecnt 0 check acquiring lock line 273. may detect usecnt zero another thread could open repo increase usecnt unregisterandcloserepository unconditionally close repo proposal check usecnt 0 need repeated lock acquired lines 273-274
+nit looks like could fit previous line
+nit code formatted expression fits one line return db.usecnt.get 0 system.currenttimemillis db.closedat.get 20000
+done
+hmm actually repeat whole isexpired check quick open/close lock acquired usecnt would zero repository touched expiration time moved future case still stay cache
+looks unrelated change end likely want submit btw would enough set org.eclipse.jgit.lib.repository debug level
+done
+public intended reused possible use packages
+public
+question windowcursor instance used concurrently multiple threads course thread pool gerrit computes diff see 2 guess share windowcursor instances proved opposite
+would severe inconsistency yes see must happen change looks good
+push succeed locally missing tree also missing gerrit
+done
+done
+done
+done
+class name util class transport specific class therefore would move util.io package bigger problem util class throws toolargepackexception transport specific solve problem class provide abstract raiseerror method
+knew thought keep code similar possible original done suggested
+done
+done
+done
+done
+0 limit valid ps7 changed patch set javadoc setmaxpacksizelimit updated zero means really zero -1 means limit set i.e limit
+done proposed keep style compatible rest jgit code
+maxpacksizelimit nothing setmaxobjectsizelimit two different properties
+done
+done
+done
+done
+done
+0 means really zero single byte read changed previous patch set 0 meant limit
+done
+skip assert option prune loose unreachable objects may important huge blob unreachable want reduce total size repository pruning
+done
+test fails
+test fails
+done actually repositorytestcase.fstick method also accepts null parameter simply wait sure next lastmodified touched file younger time method invoked makes test bit simpler access blob-files necessary
+test fails
+null check 'pm progress monitor beginning method avoid npe case caller calls null check gc method
+please document ioexception thrown packrefs fails lock packed-refs file

@@ -1,0 +1,13 @@
+well like mkdirs common file like operations would go create
+part minimizing change filelock code wanted api'zd serious mistake fix whole locking issue next round
+never thought way surely pay attention next round
+actually probably made disastrous design issue giving priority port filelock easily giving priority lock simplification guess thats mistake made fix lock staff next round least try
+useless think egit perspective long run conforming standard lock api benefit us using hbase appengine backend sure used might implementation difficult imho retain
+agree change lockmanager
+well issue lock interface throw ioexception lock lockinteruptablly needed take way documented lockable overriding done next round
+agree know made trivial mistake instead make final move static initializer block
+actually bit confused use switching hashmap
+habits die hard thanks pointing simply vanish next round
+well know unnecessary like initialize default values performance issue guess still retain
+agree
+unlocking go retain lock infinity commented abstract lockable

@@ -1,0 +1,1104 @@
+particular reason 8192
+todo
+rfc patch
+define final static int billion 1000*1000*1000 say 2*billion count zeroes ever used old turkish lira counting zeroes figure whether million ten million 1000000 vs 10000000. btw zeroes zeros
+exception even throwable call creditspace within finally block since handle exceptions short comment
+think little code easier read cases like make clearer long end pos+ size end len end len
+could used object actually like defining class purpose
+ooks like generally useful utility
+seems unnecessary value multiplied
+could less magic constants things
+think used synchronous even egit
+conventions spell version 3.5
+background info problem
+keep name blobid since always refer blob
+three lines understand newparentcount always newparents.length unless throw exception might good idea however make safe throw exception parentid changed patch 'll wind partially initialized parentids array
+state problem right and/or commit message rather forcing reader read comments bug report
+think readers well versed concept bitmasks use comment val 2 would fine code note umask inverse mask checking execute turned actually
+hmm care test case good idea test cases without using jni/jna though
+close streams
+jgit distributed edl epl
+indent properly elswehee
+nit-pick trailing white space
+sometimes use sometimes variable/constant
+style braces around single line statements
+equals test dironly
+nit-pick whitespace
+package name unit test class tested
+space .. space everywhere
+space elsewhere eclipse formatting settings included project fix assuming use eclipse
+nit-pick braces around single-statements
+reformatted
+correct
+nit-pick braces around single line statements
+pattern.substring 1 enough
+initialize for-statement
+nit-pick braces around single line statements
+assume comes measurements
+proper test check whether core.bare true rather looking name may hint humans git
+let exceptions would fail test also escape test give us information stack traces original error message never drop original exception
+ok saw
+explanation would nice
+done
+done
+done
+mars
+trailing ws
+important correct re-usable as-is anyone link jgit question whether property user.home correct one something like fs.userhome needed provide compatibility msysgit/curl fs.userhome two reasons one make jgit compatible git windows one provide compatibility cygwin
+sure want fs.userhome asking _netrc windows
+quirks regarding getting home directory c git compatible way use fs.userhome instead unless specific reason
+good catch
+control flow change made patch harder read actually like early returns
+formatting inconsistent formatting settings
+unrelated consistent autocrlf settings
+another commit separating hard
+done
+non-magic constant would better think places fixed commit ok
+could also add test assert state second revert fails
+ouch allergic word fix even worse short summary maybe fix problem recursivemerge due internal use merge
+successful left-over
+thing
+forgotten git-rerere
+approach sound sane discussed changing c git match
+mention bugzilla issue opened
+nit-pick empty line would nice break else method
+capitalize
+metioning difference c git might worthwhile
+missed last time trailing white space
+nit-pick think reads better without comma
+think shorten avoid confusion happens index working copy changed using option therefore documented
+done
+done
+nitty-picky done
+fix indentation tab required
+add since 3.5
+since 3.5 missing
+tab
+api breakage returned collection used modifiable sure anyone affected
+true credentials aleways non-null unless exception occurs think ugly create two utility methofs instead maybe need tests
+repositoryselectionpage exception eaten user would informed something bad happed change
+s/time/performance/ s/
+allows cherrry-picking merges
+try specific way common catch wrong exception gitapiexception could anything
+latter ok think exception anyone take action reporting
+npe expected exception would catch among things
+skimmed quickly sorry 're right
+'d nice test cherry-picking either parent one
+checkouttest pgm.test package jgit.test
+without checkouttest.filemodetestfilethenfilewithfolderinindex checkouttest.filemodetestfilewithfolderinindex fails pgm bundle tests
+checkouttest.filemodetestfolderthenfilewithmissinginworkingtree fals unchange test wong
+without checkouttest.filemodetestfolderthenmissingwithfileinworkingtree fails
+added braces around surrounding jump 743 750
+see checkouttest.filemodetestfolderwithmissinginworkingtree checkouttest.filemodetestmissingthenfolderwithfileinworkingtree
+please fix indentation
+related
+done
+done
+done
+done
+done
+done
+done
+done
+include whitespace-only changes
+extra whitespace
+extra whitespace
+see consistent i18n guess let one slip hope no-one translates egit swedish
+try avoid comments needed tend become inaccurate
+slightly better need commen
+simpy abort execution
+ugly indentation
+exception
+lose information blame work think better log abort know reason
+change description could reads like rather issue try fix otherwise ok
+jgit checkout reason input exists editors know format
+ideally repp contains lf input true difference content repo difference happens working tree copy created
+done
+dropping
+well felt thin ice making change
+final keyword remove
+history view three dots roughly two average characters wide fixed-width font one character wide use 鈥 rather
+bug undefined behavior
+done
+done
+rebase error done
+appears work windows
+file.exists dangling symlink returns false symlink exists
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+maybe write-protecting directory containing file could help
+done
+can*t happen
+done 'll blame
+forgot
+include folder name sr anc one called srcs
+abcde starts abc ignoredpaths dot end directories think need bit logic
+call processoptopns moved add new exceptions without breadking api long extend gitapiexception redundant list exceptions declared callers know exception consider handling explicigtly
+see comment comments int rhe previous patch wrong
+attempt resolve head commit instead
+find better name
+please test return value call knows existing test think bad
+use checking something false
+good point..
+refalreadyexistsexception jgitinternalexception strange errors anticipate try thow gitapiexception positive issue jgitinternalexception something caller anything except reporting raw exception less gitapiexception examined acted upon
+done
+done
+done
+everything smudged yes 'll performance boost
+wonder reason unsmudge know files different
+done
+though changed lime build succeeds sure reason failure previous version also worked machine
+two could clear since somewhat strange looking e.g invalid path space period end ignored windows 1
+agree chris
+suffix .idx
+interesting change id really egit/jgit created
+result null thnk
+ok
+groked synchronize mode yet mean
+many changes one commit
+maybe start using java.rmi.server.uid instead
+expect grok
+done
+try squeeze every bit performance low-level internals otherwise 'd probably use stringbuilder
+nit braces needed
+work looking '\ though need
+add case escaped '\ mix test escaping work start end strings
+spelling gitfile
+happens go high low resolution e.g projector size clipped screen size
+memory good bit short
+changing felt logical used anyone handlers used effective change line 2757
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+well done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+copy org.eclipse.jgit
+done
+done
+feature supposed contain plugins
+done
+done
+done
+done
+done
+works non-osgi i.e jgit.sh checks jgit java7 module classpath format readable jre jsjava7 would additional code 'd still need wrote fragment bundle way making osgi behave like non-osgi respect extra tricks required non-osgi
+done
+done
+done
+done
+done
+oop.s done
+warning enabled far remember
+know one tried jgit core without seeing result never posted patches wonder whether myth real opportunity gaining performance much gain
+use instead intentional ca see anything really wrong findbugs gives warning
+see warnings filters
+negative comments almost two weeks late change abstraction api dependent filerepostory filerepository actual implementation could fixed without changing api
+odd fb say complain leave hashcode first place
+much point tostring non-parameterized test cases warnings enabled test code comment
+good change believe mention implication non-linked resources commit message
+good change believe mention implication non-linked resources commit message
+maybe looks kind stange create x 2 repository filerepositorybuilder.create gitdir repository.create
+nit extra whitespace
+probably ok extra checking backgroup comment understand home/.git /typically repository
+storing shell seems like bad idea maybe
+whole class made internal instead
+forget
+suppose need elsewhere
+would named constant like magic_offset_want_write rather anonymou magic constant 1 better
+point test case tag reference object type commits fix take care
+happens tag points tree blob
+oops done
+problem space repository name long important information something going rather exactly
+done
+null first call
+vector
+done
+must unlock always done
+changing filters saying filters match anything beyond max path
+think problem
+done
+command2 linked list avoid n^2 behaviour 'd get arraylist
+done
+depends whether trust packed refs list checked duplicates came think case-insensitive file systems another issue
+done
+done
+last speedup goofup think prefer simple thousands refs millions number prefixes less twice numner refs
+nit-style trailing whitespace
+nit-style trailing whitespace
+use stringbuilder instead
+one file one empty directories
+typical case dst file would therefore faster attempt delete target first fails take hit advanced action
+ah forgot 're looping
+need delete locked file
+call close try/finally statement
+done finally clause since lookuprepository may fail
+done
+rawparseutil prevlf want use
+think right directory empty contains empty folders recursively think able delete directories
+done
+would good idea
+warning
+enables rebase detached head ss good common use case grabbing stuff gerrit
+might want actually make isrebasing method repositorystate
+think fix something important getting rid warning
+done
+done
+done
+really looks funny
+done
+done
+make two statements
+amortized doubling traditional doubling perhaps reason doubling ca see
+long.size avoids one magic number
+'d call wordmask mask whole bitset
+measure whether resizing best one
+gosh first non-jdk dependency core
+thinking rely packed refs may exist conflicting forms update create loose ref normally conflict checks prevent
+spell pack
+nit-pick braces
+make exception-test specific jgitinternalexception mostly wrapper checked exceptions idea should't throw type begin know merge failure causes
+two javadocs
+missing asterisk
+derivative work mean something translation kind original nontrivial code stealing concepts constants necessary compatibility count could violate patent hopefully case ask permission use code need ask copyright holders basically run git blame git log code extract list copyright holders eliminate trivial changes e.g formatting entirely possible go route ask nicely neccesary consider derivative work
+derivative work may need ask permission relicense code authors original work
+re-format
+removing anything last file arraylist quite expensive large lists though rare sometime large changes expect good performance measured considering io using linkedlist would remove worries
+much stuff copied base class review
+quotes
+think leave speculations understand recursive strategy multiple tips octopus rather repeated sequence merges octopus strategy
+many bases repeated translated
+repated many bases
+syntax error missing words line breaks missing
+nit try/finally keep oneline comment cleanup want
+extend mergefailurereason instead adding new enum.. too_many_bases used drop enum completely
+prefere static imports assert
+good note belongs another commit nit-pick trailing spaces
+contributors list hard maintain avoid git blame /log mail tool finding authorship
+merge make implement recursive merge strategy
+nit extra empty line
+nit extra empty line
+whitespace error
+indent one tab
+seems two paths could one
+indent
+done
+ah yes done
+perhaps coexist existing ones
+change set list convey promise sorted set
+common let user sort list needed usually performance reason doubt
+useful autoignorederived never returns false
+inform user modifiy files required pass review
+trailing ws
+braces
+done
+done
+add context
+nit-pick trailing whitespace x3
+think name wrong sure standard name command produced diff head lines two lines follow line
+would mean a/b.txt matches a/b seems wrong
+project alpha another called alphabeta method think alphabeta/x member alpha fullpath/alphabeta/x .startswith fullpath/alpha eclipse api checking things like without falling trap wonder performance projects x files ofta large number possible perform single pass files performance like projects + files instead third check whether method return null avoid substring making method return boolean necessary canonicalize path operation expensive getabsolutepath worked far
+see previous version
+path absolute already
+equals enough
+sake ip review downstream commits think 'd better followup large number files could definitely see huge performance boost
+put return line
+re-format
+reformat
+inconstent operations accept linked resources ignore executing operation pattern seems apply operations patterns
+done
+formatting rules eclipse insists
+done
+done
+done
+well hashmap understand byte string ca understand sethashfunction tried measure one path find difference think drows noise somehow suspected might performance considerations
+done
+done
+done
+misleading refresh affect whole projects
+refresh resources conflicts
+missing copyright hesders
+missing copyright hesders
+missing copyright hesders
+missing copyright hesders
+done
+done
+done
+done
+done
+indent line
+assert name conflicted file elsewhere
+junit expected left actual right please swap avoid confusion debugging
+assertequals excpected actual
+assertequals excpected actual
+assertequals excpected actual
+assertequals excpected actual
+extra whitespace
+ah annoying script http //lists-archives.com/git/634160-on-tabs-and-spaces.html
+real javadoc difference also 're breaking api 3.0 may worth
+missing non-nls
+done
+avoid __
+allows -- no_ff think legal options think anywhere simple fix
+git shared project windows
+add space period one follow see linux/nfs information page
+need protect instanceof null pointerns wrap like 've done registerautoshareprojects
+wrap one need fror autoshareprojects maybe separate change
+make method section like registerautoshareprojects
+honestly know eclipse creates way default
+fault merge/rebase bug done
+1.1 1.3 1.4 code wo work bother
+useful
+platform= specified
+done
+oops missed empty link
+done
+work together ortreefilter filter passed end mean alternative filter could match later treewalker entries
+done
+done
+old copy revert code updating pairing cherry-picking code
+perhaps shawn share insight
+open workspace version sounds ok
+nit-pick use branches simple statements
+grok subject mean oppsite
+skip last sentence
+printwriter terrible errorhandling avoid cost use jgittestutil.write writing simple files
+required seems create utf8filewriter pattern
+egit/jgit need setting caller may call manage message setcallername egit jgit default
+decode properly
+hmm may inclined agree want reword signed-off/change-id included save work happens user changes mind realize need research order rewording may simple need copy small text somehere else ide cancel change action edit often happens quite often 've newer used reword command
+easy ok block rebase pick actions user must allowed things order discover actually e.g look history code etc etc i.e situation resolving conflicts would ok bring amend dialog default user must forced amend anyting else
+perhaps err unimplemented action could see c git could resume
+ca find
+'d prefer assertequals 4 files.size bettr reports test fails
+careful startswith paths a.txt .startswith n^2 operation
+include base include numeric value simplicity
+'d rather move class internal package hope nobody considered public api
+maybe different name
+need one line best practice i.e try/catch close produces bad example
+gc handles fine since in-memory adding code close adds bloat
+good idea warning bogus could rewritten multiple statements try/catch suggestion better
+gah patchset 2 accidentally posted two old versions
+done
+change good commit message mention think separate commit
+done
+done
+comment updated match behavior
+closing would wrong would
+eclipse version using 3.8 jdk 1.7_07
+done
+done
+done
+done
+done
+done
+done
+done
+done
+probably either disk full reader exited sure much point making different c programs seems return 141 stdout stderr broken 1 disk full tell whither error occurred
+vote printwriter name different package printwriter2 seems popular eclipse fixing interfaces ones long
+hmm sure done
+rebase still..
+add empty line new paragraphs
+notes alignment seems apply anymore
+hurts eyes left align pad key '= instead.. 'd also prefer longer key name since texts context specific match c git better includes padding also appears current padding honored spaces around key ignored
+guess even part localized
+afaik lists alway non-null need null check
+fix since commands mostly wrong maybe make pgm commands use git quoting rules
+think said support current version version could 3.7 3.8
+remove error avoid fatal error
+done
+get unnecessary cast warning error try cast
+becuase call filtered via assertequls perhpas best keep case someone adds assertequals specifically anyobjectid
+'ll revert changes file less confusing way
+git documentation clarified point think change right thing
+done
+done
+done
+unfortunately java allows store type generic collection cast untyped array store whatever use generics way hardly happen eclipse full raw collections e.g code works list integer v new arraylist integer list vv v vv.add x system.out.println v
+good question guess places
+want validity test depend code test
+changed mind caller must handler
+note moving code around egit re-use 'll maybe improve later primary goal speed commit view egit refactored code seems good fit jgit rather keeping egit
+done
+commits come getallrefs feels bit strict maybe keep routine internal within egit
+follow-up commit
+done
+followup-commit
+done
+course fix somewhat ugly issue smudged entries
+done
+hasrebaseresults igniored commit message mentions fast_forward
+see text reused two different dialogs always get title though break strings
+done
+spelling error
+return super.prompt haschanged true return false comes loop either case avoid unneeded extra boolean shorter logic
+keep one litter code methods maybe might useful others static method serves well
+anything
+wrap objectid.fromstring try-catch
+need take care id fetchhead
+c git pack data located alternate-repos packing much dangerous fixing high-priority
+though normal think bare repo index vice verse c git complain much index non-bare repo even possible commit simply consider non-precense index files empty emptytreeiterator
+pack.packsizelimit might relevant
+write reflog entry second commit thus would keep commits read reflogs
+fix indentation comment
+problem
+'d probably used fixed timestamp leave future extension
+use javadoc format
+paths e
+copy length lastmodified
+ca see reason extra line fit style
+done api help callers understand exceptions matter gitapiexceptoin catch-all
+done
+done api help callers understand exceptions matter gitapiexceptoin catch-all
+done api help callers understand exceptions matter gitapiexceptoin catch-all
+done
+done
+done
+done
+done
+gosh playing around another change done
+done
+done use method dircache change
+maybe like c git smudge read instead least tracking strange behaviour would simpler
+use old snapshot available new one
+done perhaps skip smuding write completely instead
+would need code reuse three operators code re-used actually pattern used three locations io included
+done
+agree walk would better
+add unicode symbolic name comment
+done
+done
+done
+done
+checkout commit less concerned committers shooting foot commit kind-of-hard anyway concern bad stuff coming outside done
+also fixed two similar cases dircachecheckout
+done
+tmpfs lots ram would help essentially io-bound operation laptop raw dd runs 65 mb/s add opertions slows around 55. infinitely fast sha-1 would gain 10 seconds tried http //www.saphir2.com/sphlib/ difference drowned measuring errors
+little worried optimization may bypass modulo nature dircache length attribute read everyting mocking operation mockito may better could verify correct calls would made
+really missing swallowing exceptions flush i.e change ok flush finally capture errors may occuring writing final output
+agree otherwise good patch conceivably test could added
+spell names
+overhead put low could could always put
+overhead put low could could always put
+start sentences upper case s/site/size/
+jgit care arguement quoting arguments main already parsed according rules user shell
+one fix 'll try prevent others fixing think go sh style parsing decide good another option exploring writing readable tests might use groovy 'd need proof-of-concept even one
+wo handle arguments spaces
+\r windows
+nit-pick trailing whitespace
+length really 0 non-directory resource test null
+356120 seems irrelevant
+oops done
+think sort respect settings depends variant request getdatetimeinstance better
+seems java support en_de either stupid thing
+think code already attempted failed
+could add ~~1 similar variations ~~ ~~1 ~2 ~~~0
+meant ~-tests together
+transportexception wrapper exceptions thrown sub class important pass new cause
+done
+done
+done
+done
+difference want care regilar file vs executable file important difference symbolic link think previous behaviour change link file though by-accident however 'll mess upp even creatig symlink target content linked-ot-file
+spell executablefs obey filemode fs matter anymore
+check core.filemode setting
+missed previous turn think filemode false changes regular executable vice verse ignored
+fix indentation
+fixed separately
+think start catching exception similar places 'd otherwise fall end programming errors resulting npe similar seems much common i/o exceptions major rework like constitutes good time improve error handling
+fix indentation
+fix indentation includiing line change
+hyphen
+goal
+refererence change id
+change
+sure need specific think good enough 'll change allowed values soon anyway
+catch revisionsyntaxexception exceptions real errors
+catch revisionsyntaxexception exceptions real errors
+mode changed one branch pick changed mode without conflict i.e conflict occurs
+stefan code think obsolete since check remote branch/tag 'll get detached head code works current branch dialog initialized new branch dialog see pretty useless many remote branches might better integrate new option other.. menu brings tree view easier browse filtering capability also thing suggestion present remote branches tags
+c git support escapes ssh yes seems apply scheme formats bit surprised discovered deliberately skipped wrote class originally c git though 'll change class comment parse fields read clear text think http though create http url plain text need escape even escape first consistent think may efficient many times decode/encode constructor throws exception string valid parse always bonus feature tostring normlizes encoding
+ca explain though done
+done
+done
+done
+ouch back drawing board quite bad seems standard among web apps parse path *before* decoding hence 2fb rarely a/b former usually returns 404. 'll add getrawpath
+'ll add blank declaration bytes instead
+bytearrayoutputstream slightly higher level need super-efficiency
+done
+rawparseutils would assume ascii digits valid 1 1
+done
+ok using encodeascii done
+done
+done
+ah see substring error 're right done reason think clean users may write url manually think ok. clean formatting besides java uri also accepts unclean input git url parsing also
+'ve considered honest know best pure cleanliness point view practial.. way get uri cleaned reference java.net.uri suggest know git uri-encodes use java.net.uri much possible wrap allow local name scp broken file extra slashes syntax
+could either way since set encododed path know rawpath would way tostring preserves path toasciistring format always-encoded path see java.net.uri inspiration
+tostring may contain non-ascii characters therefore unsuitable sent wire
+agree jens would also create unecessary dependency implementation test dependency implementation testing
+uses cr line delimiter nowadays
+still cr real issue think possible run remotely recent java git old macs one replace would job efficiently utility may called anywhere sure constants crlf helps readbility s.replaceall \r\n \n replace crlfs crs 'd prefer one blow someone actually get cr messages 'd like know understand fixing hypotetical errors often source unnecessary bugs hard-to-maintain code bad performance s.replaceall \r\n \n replace crlfs
+disable amend kinds conflicts scale problem common enough warrant solution repositorystate
+integer.valueof preferrable
+fixed isignored checked resource tracked despite ignore rules
+understand faster sometimes since modern processors evaluate parallell think case choose right thing regardless written work involved evaluating simple boolean think use short-circuit syntax unless know better order confuse people less avoid strang messages findbugs
+s/appended
+thinking rebuilds windows moving lot files windows scary change hopefully resource rules protects protected
+documents behavior actually think wrong hence comment otoh probably best taken care follow-up patch
+checking quality code review done
+done
+done
+simple soap ok simple done
+happened 've mistakenly created repo project want extra directory level non-trivial tools tests fails assumed fixed 3.7.0. might add ignore instead version logic
+good catch
+done
+sure done
+adding code comment done
+resources framework allow need allow
+right
+done
+done
+done right moving repositories handled takers
+done
+select tag branch rename rename disabled unless rename new/* old/* somethng like anyway would single selection dialog think new enabled multiple selection
+java much nicer syntax for.loops
+else return false
+improve spelling checkout maybe reprase little allow deletion multiple branches checkout dialog
+uh yes matter test look strange done
+sure anyone using sees deprecated warnings use method without using deprecated type
+doubtful depends gitindex exist without
+done
+correct indented two tabs much new indentation correct one unfortunately also re-formatted wrongly indented part hence different line-breaks whitespace changes
+pushed cleanup separate patch
+according blame change anything
+bit boring could display entry matches committer full name sure want though rare cases want changer timestamp fully understand
+want override concurrencylevel
+yes
+done
+done better name localelocal plase share
+done
+call methods isregularfileordirectory read literally return whether file regular file directory guess would clearer without parentheses would also clearer state meaning true return value implication everything else false say return true file regular file consider gitlinks symbolic links affect method future assume method would return false directories gitlinks symblic links
+style-nit use braces simple single stament constructs
+style-nit use braces simple single stament constructs
+style-nit use braces simple single stament constructs
+style-nit extra curly braces
+style-nit surplus braces
+style-nit surplus braces
+style-nit surplus braces
+style-nit surplus braces
+style-nit surplus braces
+would want able follow renames pair files might able live restriction good reason
+comment old date 2008
+write comment let exception escape function would retain stack trace
+spelling paths subject unclear regarding problem suggestion fix status index entries checkout paths
+incorporate do-nothing body
+mostly compliance patch see c git writing algorithm non-conflicting merge choice algorithm rarely matters reflog long-term regardless would separate patch
+ah another idea contracted code crap
+maybe instead separator local branches
+itemcount 0
+avoid static import especially many different classes makes harder see constants come code since local local local constant personal opinion also nothing subject commit
+might want add http
+might want add ssh
+normal though unusual case head exists resolved detection unresolved head line 110
+aah
+new class exactly thing superclass
+nit-pick dot_git directory opposed directory name extensions
+done
+sure -1
+nit-pick would better change writeoffset32 instead looks funny offset 0x7fffffff requires 64-bit offset jgit c git
+think needs positive integer make long
+maybe add element.tostring error
+trailing whitespace
+ref used
+nit trailing whitespace
+think primary author code
+done index_path idea sounded better time dropped
+done
+done
+yes parameter done
+push button headline style
+push button headline style
+push button headline style
+push button headline style
+push button headline style
+stringbuilder preferable stringbuffer
+stringbuffer 1900-ish adding think cleaner add conditionally
+could also treat \ separator platforms rest class let someone else fix whole class messy deity choice forbid anyone thinks \ good character name anything linux
+debugging environment things work ok machine others
+even convinced adding printstacktrace could cause exception
+understand comment first findbugs like implicitly initialized fields used initializer complains 'd rather private block directory 0 drop diridx 0 change
+lure comment filesnapshot test class inherits class configures mocksystemreader whose concept currenttime related file.lastmodified system.getcurrenttime
+done
+move system.currenttimemillis call outside accept loop expensive operation
+style-nit avoid braces simple constructs
+preferred forever loop idiom
+style-nit avoid braces simple constructs
+style-nit avoid braces simple constructs
+use better name like path
+call ut pathoffset
+call pathlen
+style-nit avoid braces simple constructs
+style-nit avoid braces simple constructs
+pos sounds like absolute using something like offset instead
+style-nit avoid braces simple constructs
+style-nit unnecessary empy line
+git status updates index stat data read content determine change goes git diff result next time git figure change looking stat data update index read content separate change though since may require care dircache instance handled
+return buffer comparemetadata returns equal also see never update index like git status/diff take place
+exactly related patch creating file way checkout
+iinstead hiding bug fix https //bugs.eclipse.org/333093 guess
+one lines one many replace one call fileutils.createnewfile
+general think use another pattern i.e use file utility throws exception error really testing createnewfile works since another pattern already place better move separate commit fix mkdirs asserts
+replace asserts one fileutils.mkdirs
+replace asserts one fileutils.mkdirs
+replace asserts one fileutils.mkdirs
+fileutils.mkdirs
+previous version work use fileutils.mkdirs
+swap next commit use new fileutils.createnewfile api instead assert looks like part test rather setup comment applies similar lines
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+unnecessary due mkdir
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+use fileutils.mkdirs
+quite related patch per-se check would work large objects since jvm would able load everything array second think compressed data would usually also identical could check compressed data first decompress check real data fails
+license header missing
+test right thing crash
+translating internal programmer errors bit extreme
+guess could investigate include called every entry i.e also different stages assume filter first one leftover first cut decided ignore presense unmerged entries worked counter way cutting progress reach 100 per cent
+looking index convinced meant public consumption ca move progress filter first filter order fix first problem think 100 accurate main idea let user feel good
+please refer change-id commit id sure long 2271 available reference certainly online
+works code moved fix
+change braces peopl still blame original author clearning done
+add trailing/ diretories
+trailing whitespace
+return enough
+javadoc explaint class would nice
+use author tags add people copyright header
+use return param taga
+avoid braces omeline ifs like
+two methods exist
+away-commented
+wby import-package
+use bin/ target/ directories
+compare deletefilefailed think createnewfilefailed=could create new file 0
+ok 1 getcause return null even though field cause never null 2 e.getmessage also contains information believe message reported e passed error like gitapiexception handled
+1 would getcause return null 2 drop exeption message use cause message
+small comment logic might enlighten since ignoring exception
+ideally compiler figure effectively remove local variables think typically retain data delta.large returns may cause memory used
+comment reason inline
+comment reason inline
+compromise dropping getabsolutefile since scanpath already make line shorter need wrapping
+done
+done
+done
+done
+done think makes sense cygwin least current msysgit help becuase bash path git
+done
+dropped which/whence stuff base clas
+done
+ui tell user prevent better manner ui forgets user know
+done
+done
+done
+done
+done
+done
+done-ish
+initialize references java guarantees default values fields initialization means code read comment
+'d prefer .isempty
+undelete usually means recovered delete non-deleted would better conflicts non-delete files status status fail update files e.g locked
+accidentally write-protected directories would cause os es quite rare might need different way testing
+drop catch clause finally cleanup let exception fall test let junit handle report error rather failure catch also drop stack frame bad debugging
+separate commit please
+use systemreader
+think updating pack file might take time complete check directory think flawed write pack files final name rename final name directory timestamp modified 2 seconds probably ok
+three minutes since fat two seconds require larger two seconds many file systems three seconds 2.001 would unit test would found break anything objectdirectory two /minutes/ fudge
+good catch
+unrelated whitespace change
+gerrit cannit find id gerrit able handle note correction
+gives impression ref type first sort key code commit time sort order probably better handled ui issue good default
+done mindless-drone-mode moved code place would called often
+riight
+yes thread may trigger repository events momemnt sure happen imagine pull beging performed background one repo committing another
+right .. done
+removed function stiill use another create branch dialog expects particular behavior please fix
+think distance term used paper describes diff algorithm
+format using shift.ctrl-f
+correct encodings resource specific see gitdocument populate refactor code reuse hopefully code better try jgit find couple files encodings grep ^encoding */.settings/org.eclipse
+would need lock read-only
+make addition sepatate commit review thiis flaga derived changes separately
+refer revreted commit using words rather hex digits may challenge subject line need precision since sometimes rebase maybe refer change id instead
+since compatible 3.5
+us terminology confusion commented previous commit i.e base niot merge base trather
+one depends want define use pushexists
+fix bugs
+s/pathes/paths/
+4.0.0 work
+technically could different merge bases since common ancestor always determined unambigiously case called criss-cross merges typically would probably use algorithm cases though considereing exotic use cases git users come could perhaps declare different bases impoossible familiar enough synchronization model shawn btw term base common ancestor supposed synonyms i.e determine merge base trying find common ancessor local remote commits i.e base could probably better described local remote called
+commit hashcodes pretty well distributed could xor want something faster
+general form ought string whose content interpreted implementation sure helps though
+non-file repositories cached
+guess thought following even repo file based store fetch_head way
+add check corrupt data compressed data truncated inflate return 0 loops forever
+hang checked data truncated see c10e13415705d63e4d5d2487ca6fff1fe1ff10bb patc
+however happens short list typical experience single bit errors corrupt single objects truncated files lots problems
+ok
+-1 explanatory message -2 memory really problem certainly lead anyone encountering problem wrong 'd prefer illegalargumentexception
+ok
+try/finally
+think shawn wanted fewer event listener collection want globals
+implementations actually inflate could better name javadoc describe
+-i sliightly allergic exceptions without information -throw corrupt stream exception right thing copies code
+leads wrong stack trace
+change fine
+1 capitalize spelling i.. file protocol 2 need expand abbreviations use descriptive tooltips perhaps local repository ftp git native transfer http smart dumb secure http smart dumb variant sftp transfer git ssh also known git+ssh
+contextmenuhelper used
+nit-pick reads better doesnotexist
+mis-spelled name
+plugin depend easymock test plugin
+isempty java6 require java 5
+strange indentation
+todo actually nothing
+think close stream normal case well errors finally
+need *31
+subject
+shawn safe would happen two threads enter method time two file objects gets constructed performance problem safety problem method could construct new file instance every time
+start sentences capital letters
+1 start sentences capital letters 2 second sentence easier read new paragraph lf p lf
+match commit-msg got gerrit hook thinking making implementation diverge hook since makes little sense skip blankt lines
+generated junit test committing test shell commit hook installed repo found behavior code skips multiple blank lines single ones
+ah thinking implementation read message accurately
+even think looking ca st^h^hborrow tests
+constructors work 3.4 since filteredtree class take fotmtoolkit constructor argument
+seconds argument available .3.4
+unknown methods eclipse 3.4. fatal though
+-sign
+ridiculously low see freeze whatsoever even hundreds changed files add limit perhaps timeout rather count
+anything
+either
+make dialog much much wider hate horizontal scroll bars
+leave away-commented code
+nit-pick add space
+remove ///
+gosh much one ident
+dialog way narrow make least twice wide hate horizontal scroll bars enable multi-selection mark region press space whatever select/deselect range
+done yet
+nit-pick braces simple single-statement constructs
+declare dependencies via osgi way
+split subcommand subtree jgit command misleading even stranger supply subcommand
+document content map original rewitten
+private
+add license header
+author tags
+describe expect method return input
+queries sped much
+use author tags
+odd indentation
+use parent.getfs instead
+seem c git may still useful sure expensive may lots refs getcanonicalpath expensive one reason avoided far may even fail sometimes name comes public api comes scan file system presume return correct case
+see error wo able use remote since compromised seem c git quite brutal handling attempt use repo would refupdate.updateimpl better place ca return message rejected cover cases
+reason protect remote evil refs e.g remote exploits think everything go common method method even original purpose someone hacks local .git/config trick user e.g telling type mvn install already toast much prevent bad stuff entering outside without user option inspect downloaded crap
+common methods called transports hence felt would convenient fix protocols one place
+hmm clever.. think
+good probably relieve insanity
+patch 4 last version original theme
+problem reader created one place hard get order disable replacement attempted going direction see would work got overwhelmed grafts easy fixed walker alone see first ttempt replace mechanism needed places hierarchy readers shared readers e.g windowcursor objectdatabase always per caller instance need grafts btw
+sure need gitapiexception stand firmly use expected=
+jgitinternalexception means something broke really bad usually unexpected way know exception expected say wrapped filenotfoundexception use expected= ever prone accept wrong error make error gitapiexception
+indent
+nit trailing whitespace
+default false
+nit trailing whitespace
+alternates already special synchronized class
+please fix indentation since one component point extra arithmetic hashcode
+since one component point extra arithmetic
+appears indexdiff even supposed report still least sometimes huge performance loss egit things like c git report untracked directory using gitignore complicated general case help
+think staging view option expand one select individual files staging whole directory
+main issue report untracked files diff tracked files
+machine jgit tests filesystem see whether support symlinks file system support symlinks set core.symlinks false work bug somewhere
+sure users use compatible git implementations/settings possible might agreed prior symlink support available symlinks file system bother using jgit java6 missing secreatesymlinkprivilege like trying work linux kernel mac default file system gits job fix issues
+org.eclipse.jgit.java7 included java 7 configuration error need bothered solved problem way probably practical difference though motive bothere strange initialization sequence work inside wti/fti enough
+testing symlinks two different ways case confusing one way may even nest ifs since ifs handle symlinks
+done
+done
+done dropping optimization
+sure behavior jgit correct nobody really challenged comes fact windows programs tend set executable bit acl actually default hence c git windows checked cygwin seem anyone supporting code still hangs around becomes burden
+fix fti/wti
+think use writer invoke streams communication real world level printwriter eats execptions everbody forgets check
+catching die coming fail
+see comment patch 5
+avoid printing stuff unit tests elsewhere
+part well known changes internal apis need motivated way fine shortening commit message
+avoid speculative comments since decision even though likely
+please explain use in.available
+behavior different c git flle affected source tracked index c git fals mv'ing directory without tracked files fails c git mv directory without untracked files whole directory renamed -f -k options quite important handle
+crlf s-
+add test renaming directory
+maybe api version
+according keysety javadoc actually conflicts.keyset .removeall removed
+need test non-ascii names match java api
+need nfd nfc conversion core.precomposunicode true
+latin-1 actually good default anything understand since pass-through reading anything latin-1 unicode writing latin-1 never destroys content intermediate unicode might gibberish though
+please change delete fail due lockfailedexception cleanup
+mean may undeterministic tests taste
+log else could user figure problem though sometimes benign lockfailedexception usually means stale lock
+unicode nfd nfc conversion os x least core.precomposeunicode true
+add non-ascii filename tests
+set ramdisk profile
+already class objectinserter.formatter use instead mocking
+auto-import new projects sure someone might want turn feature natural thing would normally keep projects available
+chris author
+parameterized tests another variant way advantages comes debugging ok think
+like refactor mergeformatter reuse
+nit-pick trailing ws
+avoid braces around single-line statements
+put bug number footer see commit
+done
+previous version commit new version depends change type i.e change match commit comment
+keep footers together
+need extra field confuses
+reference wrong
+never catch exceptions test code unless actually want something use declare method throws exception
+least add excuse leaving things like rfc
+usually invent names create commits test execute somebody else machine
+test index files expect/do expect
+ouch
+ouch
+writetrashfile work
+ouch
+ouch
+format comments like
+leave unreadable things code purpose
+stash commit precise
+r_stash refs/stash/ work
+constant
+good question could return string e.g stash 38 message iterable revcommit iterable reflogentry complete readily available types sure chris
+use constant incomplete method
+tell us content string general description
+use constant needed
+refs/stash constant called stash
+missing stashpop
+javadoc return values
+object id objectid
+must something useful could return could state far method return anything hmm wonder possible use void capital v changing something else without breaking api
+method might called lot \r occurs rarely check whether contains \r invoking whole regexp machinery
+file -urls necessarily correct syntax file filename eg file /users/ file c /doc file would imply unc path
+try passing -xstartonfirstthread java
+think spec allows file /var ment used authority part present i.e host optionally authentication file ///var empty authority file /var authority part present url spec could written clearly bit 5.3. component recomposition quite clear
+sure here.. added another test case fails c test case fails calling rfc need brain cells
+undetstand hash matches without tweaking 're fine
+one might argue stat checking check timestamps git config files order detect changes might possible get change included especially jgit/egit
+difference
+done
+keep old assert still relevant note difference case think new getnames deal differences case think keep first encountered spelling listed key
+reloading important part subject line
+think matthias ment code adds nulls content lists control legacy reason supporting nulls code construct lists make sure add nulls
+jgit contains quite number references git man pages think ok
+find mostly matter taste new logic new head tend get allocated left expense commits looking jgit history new layout tends re-use columns total reduce total width column unfortunately really understand algorithm enough say improve know previous behavior wrong current far find 'd appreciate
+copy anymore
+style-nit braces simple single-statement constrcuts
+style-nit braces simple single-statement constrcuts
+style-nit braces simple single-statement constrcuts
+style-nit badly indented comment
+style-nit braces simple single-statement constrcuts
+extra stat call case f directory almost cases f file optimisically attempt delete file empty directory first expensive stuff fails
+chris suggested modify use fileutils.rename dircachecheckout changed mind
+method fail windows
+atomic gone need another utilty even possible
+commenting test test overwrite existing file
+add bug number footer
+agree dialog precedence settings set default dialog
+could signal dialog using alert icon instead
+add trace option
+indent otherwise ok
+default implementation way go
+fond static import exceptions unit tests i.e assert methods setting data
+also cases illegalarguementexception could thrown malformed encoding headers
+difference cleanup sp_cleanup different
+white-space
+location script important way written current directory comparing jgit cli jgit api find ../org.eclipse.jgit/src/org/eclipse/jgit/api file directory
+white-space
+never normal talk mean e.g change mind unless humungous number sleeper problem sleeping really different sleeping months already handle dates far future today without never forces people change code reason proposing introduce always think option
+sun aug 17 08:12:55 cet 292278994 never practical purposes even git may obsolete time fewer callers need adapt new date long.max_value btw one perhaps create constant date instance case one actually need identify never subclass tostring return never would allow us parser always date i.e null
+strange characters
+seems way unless start using jna easier way jni
+whole point patch caveat must exist bidirectional translation work believe users sure hfs+ repos generated c git decomposed file names yet java composes names us little loss code points lose identify decomposition process hfs+ imposes maybe handling case-insensivity problem way go
+ack
+would treeoptions ok sure kind options would good long term fit
+yes lot messy might possible clean amount code much using jmockit much cleaner since allows direct mocking things like file fileinputstream however find jmockit orbit
+done
+perhaps another name would better method able return ref name thus resolve expression merely simplifies
+content2
+change topic
+yes know breaks api hand breaking api time one commits thats *says* breaks api think serious api bug maybe really clean call 2.0. one many serious issues api
+ca dcentry.setlength etc
+would better dirache written would work operations commit could done followup https //git.eclipse.org/r/ /c/5413/6
+block
+block
+block
+block clarity
+deeply nested structures please use blocks
+definitely block
+block
+block
+block
+already second attempt think ref good enough easy convert object get may object type actually resolve ref get see handle care cases think name whether special type makes difference amount work caller reality behind tags complicated abstracting things much good case simplify anything give us extra object class handle
+yes listing tags wants names parse revtag regardless opposite trying elsewhere i.e things caller ask yes examine get unnecessary work unless really want information regardless design check whether annotated tag kind object points etc try abstract type 'll wind something close ref anyway suppose could play subclasses ref doubt help option could command preparse objectid ref could cast still need check type casting since could type
+guest see need qualified
+nit-pick use javadoc-style comments one
+wtf jgitinternalexception something serious would another bug need fix commit
+done
+done
+done
+maybe git trouble fact static want change os tests
+done
+done
+done
+good heavens
+could sure much buys us considering possible future support e.g utf-16 text importantly also need buffer data keeps logic tiny bit simpler usually translates faster code though proof whatsoever case
+thinking making cutoff list smaller sure one way practical purposes exclude branches looking tip i.e tip branch older commit looking unlikely candidate add time skew sure
+nice callers try call similar methods processed past last entry let crash somehow case 'd get npe free general accessing data past end iterator undefined returning null obviously fits category want helpful alter caller error crash instead also undefined easier diagnostize return null null often sent one ore layer problem much harder identify
+propagated
+nit-pick trailing whitespace
+nit-pick trailing whitespace
+nit-pick trailing whitespace
+nit-pick trailing whitespace
+problem kind testing accept illegalargumentexception expected place illegalargumentexception thrown deep within java unfortunately tests pass wrong reason uncommon
+agree abstract things clear day already proposed change makes much harder understand code since need refer look one place figure
+spelling error repeat code comments explain
+could improve subject line let assume passes code review proved typo
+seems plausible
+removed
+yes adding new remote using team project set makes sense know works another thing may want use another name remote master branch like ones import clearcase master branch called main think makes sense keep name
+general discussions better tracked using mail interesting topic though please post mailing list
+throw exception team project set possible create using egit simply example corrupt psf file happen early stage user gets feedback import dialog
+either add message check least errors make sense drop comment next todo
+abandoned 3.4 yet makerelativepath requires 3,5
+drop todo comment
+one needs updating latest projects urls
+appropriately
+add javadocs protected variables eclipse setting set require javadocs flag declation error reason protected part interface thus documented
+style-nit space
+add javadoc
+propagate
+s/shallow/shallow one|commit
+ca package access instead public
+add javadocs protected variables eclipse setting set require javadocs flag declation error reason protected part interface thus documented
+include change-id
+style-nit space
+style-nit space
+javadoc
+ca package level instead
+drop overriding javadoc
+drop extra white saces comments
+good reason abandoning java convention 0-based indices ranges include start index end index
+drop overriding javadoc
+want rename detection non-merge commits
+drop overriding javadoc
+slow way computing hash code perhaps less important line since fewer
+drop overriding javadoc
+drop overriding javadoc
+drop overriding javadoc
+way pass encoding
+equals hashcode match work
+able use non-default encoding
+dominating convention java range includes start index end index good reason like
+use javadoc way drop comment completely let eclipse/javadoc pick inherited comment directly applies places methods overridden implemented add override superclass methods ovverridden
+drop overriding javadoc
+quite slow since tostring lot work much faster combine hashes components directly
+drop overriding javadoc
+start/end start/length common pattern mix accidentally people usually find quickly means changing code understand want also means slightly complicated code user start end pattern leads simplest client code
+think see fewer bugs callers range works like java ranges i.e upper limit included range
+nit-pick startcommit.hashcode xored/added since well distributed
+still match think expect test cases would possibly clear things
+containing every line every revision lines visible last revision returned
+using treeset may fastest way drowns rest code may matter much using another implementation future think performance problem may make use set inconvenient perhaps collection would less implementation dependent providing stable interface set interface quarantee ordering anyway uniqueness explicit
+override javadocs way
+return doc match description javadocs need fixed merging master
+add xor git object hashcodes hash since well distributed
+think whole if/else handled using anyobjectid
+strange else part whole thing though see general pattern leads still quite tricky read filename null return other.filename null else return filename.equals other.filename
+avoid one multiply int result guilty 1231 1237
+either add nls stuff leave non-nls stuff others people find strings warning meaningful
+i18n-ab le string silence warning
+probably terribly important guess meant return 31 getclass .getname .hashcode + repository.hashcode worse equals defining hashcode without equals make little sense
+text i18n able
+would say return 31 root.hashcode + resource.hashcode add equals method
+delete file
+fetch_head contains one ref treat separatelt let go path
+relation commit message
+related treevisitor
+related treevisitor
+relation commit message
+related treevisitor
+related treevisitor
+inversion logic mentioned commit message
+use roots.clone instead elsewhere
+let utility remain internal move even mentioned commit message separate commit done
+simple clone works fine need method
+see projects .settings
+use setting rest egit projects
+projects included resources set projects included type iproject right
+mylyncommitmessageprovider.getmessage two occurrences return null
+icommitmessageprovider returns null
+provider instanceof icommitmessageprovider else
+exception extension wrong type
+extra whitespace copyright employer
+trailing whitespace 'd use author tag
+trailing whitespace
+1 something missing 2 generally assign copyright either author employer depending appropriate
+use author tag
+platform specific line endings return null
+needed mylyn trailing whitespace
+newline
+newline
+newline
+style nitpick extra whitspace
+style nit-pick trailng whitespace
+needed
+needed
+1 think extension able manipulate message way append 2 append line separator one already present 3 level might want platform neutral line separator want final commit message assume know anything dialog represents message internally suspision extensions likely get wrong require use platform line separator
+use systemreader.getinstance .getproperty advice also means readyy declare constant see also http //egit.eclipse.org/r/ change,145
+1 bad name suggestion getlastmodified i.e dircacheentry 3 consider extending dircache api functions needed perform whatever need api deprecated
+since simply testing personident please name class accordingly
+use ecplise use formatting capabilities settings things projects

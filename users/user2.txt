@@ -1,0 +1,79 @@
+extra space
+milestone-indigo instead nightly-indigo
+1.0.0 instead 1.0.0.0-snapshot
+please draft proper commit message
+boolean setter called setdryrun boolean add simple boolean logic check call see whether actual delete
+-1 boolean attribute dryrun corresponding setter call delete file dryrun false
+technically use library dropped
+rename testclean also add another method testcleanwithpaths call setpaths cleancommand
+need
+need
+'d call addpath string path mimic elsewhere e.g. checkoutcommand
+use author tags please remove also trailing whitespace
+future note include author tags
+'ll rename addnote
+ok
+done
+done
+done
+done
+done
+done
+similar readmergeheads probably simplify two methods future
+looks similar writemergeheads could probably combine two methods
+whitespace
+whitespcae
+whitespace
+whites space
+add documentation exceptions would occur think 're good go small doc change thanks jesse
+whitespace nit
+whitespace nit
+adding twice
+refactored command wizard
+return 'this like setters
+add something like sets specification annotated tag behavior fetch
+looks ok given get use getnote drop generic get
+add bug 123 representing bug
+really want inner classes
+constant somewhere
+probably refactor private static string somewhere
+authentication authentification sounds german
+look creating egitcoreactivator egituiactivator something like egitcore egitui simplify access activators
+type code screams utility method available via higher level api org.eclipse.jgit.api .. ok
+'rebase-merge constant somewhere
+'ll file new changeset makes sense
+null valid argument dircachecheckout document 'll open bug
+move utility method somewhere
+could move logic branchname null
+remove please
+may want utility method future returns refs symbolic fine
+promises throw know
+related change
+add license header please
+use configconstants add streamfilethreshold
+regarding locked dircache instances please file bug track get things good enough moment
+essentially duplicated code format future find way collapse code
+probably use objectloader.stream_threshold make little bit mysterious looking code keep one place
+looks like everything static methods static final class synchronize method arguments currently constructor
+move public class 'org.eclipse.jgit.treewalk.filter package may useful clients
+performed matter anymore..
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+point somewhere else policy eclipse deprecate something generally want point use another class
+probably constants types things
+log
+may need include one heavily targeted towards eclipse.org developers egit users specifically think fine
+well api per se 0.8.0 release 1.0.0 giving people guarantees backwards compatibility imho
+need
+need autostarting bundles bad

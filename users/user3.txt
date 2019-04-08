@@ -1,0 +1,178 @@
+work fcheckboxes.enttryset inlined
+using string.valueof mybundle.getbundleid would make sense .valueof.tostring
+point string concatenation inside stringbuffer append split two parts text.append .append original.length 0 using text.append .append better text.append text.append -- need split onto two lines readability text.append .append prevents source code formatter wrapping
+split two .append calls
+could changed integer.valueof count since 're
+new string generally useless replaced case think variable removed completely
+know 're reading 100 chars initialising 100is probably good idea rather defaulting 10
+xml file single line going give real headaches read entire line instead might better read array chars append chars stringbuffer directly instead going string reading process could fact read array 100 chars example look tne ending characters append char means need convert string 're using stringbuilder
+think stringbuilder means truncate particular point setlength xmldecl.indexof .tostring efficient since 'll avoid intermediary string instance created course may off-by-one error worth testing
+yup using stringbuilder would sensible
+vmargs vmargslin
+refactored common vm arguments general vm arguments section well enabling g1gc usestringdeduplication note windows 64 bit enable 2g 64 bit mode able 32 bit mode well
+0 cached integer instance already references 0 instance point storing specific value hand max_value cached still keep around
+technically less performant former case things like var_first_char constants thus compile time concatenated opposed effect two separate method calls alternative would find .append const .append otherconst replace equivalent literal value frankly sure think benefit var_first_char constant anyway would recommend manual in-lining e.g case put another way 'd recommend changing line sb.append .append varname .append
+another place excessive constants help example .append echo .append whitespace .append -n .append whitespace replaced .append echo -n effect happens moment java compiler suggested fix happen think .append const .append const squashed javac
+c.f sb.append buildcmd .append .append deprule
+think would constant left although would show anti-pattern report
+although could used .append .append format line pretty long given first half block figured second would benefit well
+comes option.getcommand front return statement prior running sb.tostring instead prepend front stringbuilder
+since 're using single character use instead form thus need non-nls tag
++whitespace.trim effectively no-op requires copying string potentially avoid adding whitespace end .trim still necessary since last array value might end whitespace course reason want
+non-nls superfluous revisit removed using '\ appear equivalent preferences better
+stringbuilder used concatenate something print afterwards however would occur partition resulting partition string x z bytes resulting buffer would x+y+z long followed printing instead print partition separately three implicit stringbuilder instances single x z sized stringbuffer means likely fit young generation promoted use implicit stringbuilder generated string concatenation part system.out.println argument instead
+problem prototype case stringbuffer isempty method since object may tostring method easy transformation without investigating step example case could replaced prototype.length 0 inspection target type said see two occurrences .tostring .isempty -- gnumakefilegenerator.java latter case ipath result string reused guard
+let know want original bug whether new bug created
+similar bug last time fix
+oops bug needs fixing
+done see https //git.eclipse.org/r/70918
+gettoolcommand seems written different style others file uses parent null others use parent null changed consistency use null approach instead
+needs cast string order pass
+suspect get rid cast
+ditto
+ditto
+ditto
+use boolean.valueof instead supports case insensitive comparisons though might cleaner
+probably replaced 1
+suspect replaced 4l since assertion want change
+shorts automatically promoted long value
+nb safe use 'int remove also takes int argument index
+two lines repeated looks like mistake lines deleted
+line causing build fail
+since message format fairly sure could replace node indexfirstblankkey indexlastnonblankkey
+reason left sure whether assertequals would properly cast integer type requestor.constantvalue however test still works agree sensible change
+advantage replacing show textual search pattern future git grep new integer shows places codebase needs replacing hit future otherwise
+reason works agree better
+bit horrible dialog settings inverted false generate activator true suppress gets inverted saved reason 'd like change would backward compatible could rename 'skipactivator instead makes clearer
+generally subjects 50 chars flow onto second line perhaps remove 'when package attributes declared removes need package attributes declared well
+worth adding 'the version
+worth adding 'the vendor
+couple spaces end line showing red gerrit 're worried kind thing
+fpkg suspect
+messages punctuation
+worth adding 'secs well
+worth 'mins well
+worth 'hrs well
+probably configurable option since jvms report number sockets vs number cores useful default overridden
+worth creating threads daemon threads
+would change behaviour wanted replace like-for-like change perhaps raise bug replace logservice logger instead fixed subsequently
+need update date
+note alternative would instantiate ds component passed reference frameworklog way however service tracker opened first log message actioned probably cleaner
+would one places supplier frameworklog would neat pattern
+acquiring service getbooleanoption returns boolean boolean ca test null easily
+acquiring service
+damn code
+ca find used anywhere indication x-friends reference org.eclipse.e4.contexts.debug
+ca find org.eclipse.e4.core.contexts.debug without debughelper class probably meaning
+'ll try asking different way regenerate code
+one test genmodel like determine change required
+need update copyright
+need update copyright
+need replace copyright message
+version number bumped say 0.13.101 dependent e4.ui.di bundle subclasses something project change requires subclass seteventadmin method set bundle descriptor note 0.13.100 set beginning neon cycle
+note file mixture tabs four spaces looks strange 'before view normalised tabs throughout file fit files project
+lars bug reference right bug two changes one changing boolean.valueof subsequent change using integer.valueof well https //bugs.eclipse.org/bugs/show_bug.cgi id=476814 c1 happy create second bug think applicable bug reference right
+might well remove added override one
+fixes warning class necessary change drive-by cleanup related classes
+get rid
+really put back right place
+import effectively already covered import line 17 properties class import list package confused
+whitespace removal eclipse save file replaced
+drive-by typo improvement
+using valueof allows cached instances reused boolean data types
+whitespace re-indenting done eclipse save
+whitespace automatically added eclipse save
+use cached value long 0 factory new one created time method seen
+typo 'an fixed drive-by improvement
+whitespace removal done automatically eclipse save changing
+resorted eclipse save alphabetical order
+resorted save eclipse alphabetical order
+needs changed boolean.false
+note using tertiary well literals instead boolean.valueof boolean method signature added java 1.4 osgi/minimum-1.0 baselined 1.3. thing effectively in-lining call
+note using tertiary well literals instead boolean.valueof boolean method signature added java 1.4 osgi/minimum-1.0 baselined 1.3. thing effectively in-lining call
+note using tertiary well literals instead boolean.valueof boolean method signature added java 1.4 osgi/minimum-1.0 baselined 1.3. thing effectively in-lining call
+could replaced boolean.parseboolean instead since 're getting boolean value however legacy pre-3.0 rcp method sure worth
+convention else line exists
+egit convention 'd used baseref null null baseref.getname avoid negation
+doc changed code diffs code dependency
+'d personally rather see null rather null flip branches mentally original thought rather using in-line tertiary operator vs statement words baseref==null this.mybaseref null else this.mybaseref baseref.getname this.mybaseref baseref==null null baseref.getname fine operator though
+comment change supposed part changeset
+reference capitalised branch tag
+significance hashes message
+commit messages implementing 'switch
+could configurable value future people bigger screens others
+comment change supposed part changeset
+switch overflow wo flushed bufferedreader fills make sense flush point prior returning bufferedreader ensure part done wrapping stream secondly result overflow ever buffered writer e.g call twice code possibility wrap wrapped bufferedoutputstream case e.g something like overflow instanceof bufferedoutputstream overflow new bufferedoutputstream overflow ..
+objectdatabase refactored well granted everything file function scheduled later deprecation perhaps deprecated would good idea call getobjectdatabase instanceof check
+doc suggests returns unmodifiable collection hashset mutated want enforce wrap collections.unmodifiableset
+in-line repo declaration like string name getfullbranch
+get refactored later stage seems odd abstract repository would file system
+happens path called multiple times keep releasing inserter wo lead multiple releases called
+pull inside try block push declaration commitid inside try block well
+generally speaking want put 'release test well
+unnecessary class abstract extended initialisation purposes every object gets default no-arg constructor anyway
+observation full descent alternate handles checking impl2 desirable would better hasobject1 objectid hasobject2 objectid.name myalternates hasobject1 myalternates hasobject2
+whitepsace 'objectdatabase 'myalternates
+done
+added 'and working directory test still 'has working directory clarification means bare would better change 'if repository bare i.e working directory people think separate condition
+constructor used passed builder perhaps
+thought blank lines introduced paragraph anyway
+see difference baserepositorybuilder stage abstract difference distinction filerepositorybuilder
+'ve called 'frb instance 'repositorybuilder filerepositorybuilder instead
+seems utility method otherwise belong class plan evolve methods add new ones anywhere else could put e.g static method event class
+two constant values put variable declaration e.g private int type constants.obj_bad
+still think wrong class adding 'addlistener since always keep growing configchangeevent.addlistener listenerlist instead way add new one need add new class modify one every time
+argument called 'keep phrased 'do discard similarly 'discard synonym 'do keep either change var keep discard change comment 'keep 'do keep
+ordinal ordinal implies kind total ordering elements ca guarantee example want add new protocol 'pigeon going give max+1 8 case someone else wants add 'avian also 8 clash gets worse next version e/j git comes 'psychic 8 duplicate triplicate ordinal appears add value impose total ordering protocol using lexicographic sorting protocol names instead using arraylist use treemap instead lastly value ordinal appears completely unused
+looks like bad reformatting accidental
+commented code
+commented code
+let check commented code
+need check commented code
+potentially api breaking change clients may instantiating directly think safe change without suitable bounce api
+suggest breaking line setfs fs put single line comment end prevent reflowing
+trailing single-line comment prevents ide flowing following lines reformat left
+maybe line break setgitdir
+maybe line break setgitdir
+would personally commit message declarative rather opinionated probably removed improve message
+build method necessary baserepositorybuilder changed removed 4.0 baserepositorybuilder marked abstract well
+character.valueof v would work well even character testchar v
+comment
+comments doc comment
+btw great use atomic boolean
+maybe loop iterates number iterations waits e.g 10ms per loop total time bounded test say 1s way never passes hang ever int i=0 i++ 100 threadfinished.get thread.sleep 10
+instead wait thread.currentthread .sleep 1 instead need synchronized block
+looks like two spaces intentional
+comments doc comment
+additional blank line
+think u.i full-stop shou one well i.o
+note valid use-cases tests plenty cases eclipse pattern already implemented search accesses display.getthread see used
+think would better isdisplaythread rather iscurrentthread
+another possibility get isvalidthread call iscurrentthread isvalidthread updated another implementation desired without code duplication
+goes past gerit number lines max line policy swt maybe change means safe call without blocking display thread. /p
+'is display thread top 'is display thread bottom consistent 'd suggest case future platforms support one display thread 'the works well
+two newlines style file single blank line methods
+private expecting api thus compile time constant well understanding incorrect please let know change back non-compile-time constant
+need fix line well compile time constant
+earlier feedback markus supposed compile time constants prevent others trying replace wanted add comment prevent others trying make change future however since jdt team expressed reluctance read patches contributed community seems little benefit trying improve jdt
+preference whether use explicit implicit autoboxing e.g return long.valueof 1 return 1
+comment
+ca change comment implementation
+sure needs public could private
+lots whitespace changes removal trailing space done automatically ide
+batchupdate allows override newbatchupdate method newrename newupdate stops updated mainly seems designed stop people overriding method batchupdate gets called bunch places including upload changes directly branch update gets called perform merge overriding method get finer control update happens including inserting wrapper class permit delegate override calls whilst time performing additional logging amongst things dfs refupdate knowledge things compareandput refdb including comment force push identity submitter time get compareandput know ref ref b lose contextual information one implement reflogs using gerrit hooking dfs refdb implementation would make sense api moment 'd ideally like something along lines compareandput ref 1 ref 2 personident string message boolean force signature could delegate existing compareandput method next best thing override dfs implementation inject wrappers around update operations get context lost really see point making restrictive though dfsbatchupdate dfsbatchrename forces implementor override method dfsrefupdate public non-final would permit one implement generic ref database top something like zookeeper restriction override named class may beneficial
+need especially mandate make optional dependency using resolution =optional line ideally bug fixed upstream need see reason demand prevent everything else working present
+worth putting check exception block size power 2 probably jit friendly desiredblocksize desiredblocksize-1 0 throw new illegalargumentexception invalid block size
+note basepath different filing system drive windows guess rename operation may fail could try copy rename fails could read write bits basepath basepath+ ~ similar
+need get rid common characters like _ may perfectly valid characters url
+looks copied cvs one head make sense git checkout anyway idea behind cvs write 'default one everything needed e.g default head git default 'master instead
+tycho-168 marked fixed 0.7.0 still need
+trailing whitespace
+need 3.6.1 run 3.6.0
+trailing white space
+'ve never seen style furthermore npe something usually occurs method invoked null value semantically different value bad value mykola probably use iae
+kind constant rather string facilitate future nls could pass int code invalid_url string class notsupportexception int code string data tostring switch code case invalid_url invalid url + data etc
+think need create new exception object every message rather class class problems code could subclass problem specific instance however let leave nls aside get going
+could pre-defined static final instance static class rather instance class instantiated anew time
+constants file representing e.g http_method_post http_header_content_type
+'static see referring anything enclosing class could missed

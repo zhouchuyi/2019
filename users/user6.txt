@@ -1,0 +1,580 @@
+also blocks ui thread could use modalcontext.run instead
+get warning unnecessary suppresswarnings unused
+get warning unnecessary suppresswarnings unused
+think change relevant symlink points directory maybe could make clearer
+think block could moved first line tracked field set extractresourceproperties method
+could also add asserts testclonerepositorywithsubmodules
+could also test error situations like initcommandtest
+implemented exception thrown call method either also implement check document exception call method
+s/seperate/separate
+s/seperate/separate
+s/seperate/separate
+entries updated incrementally change submodule either checking another commit modifying file indexdiffdata submodule updated indexdiffdata super project latter one one affected change
+field introduced commit 0c90acfe order store encoding currently processed file use inside diffformatter admit test files different encoding even test think work anymore could please check
+s/current entry/the current entry/
+think enum belongs getmodulesignore submodulewalk class would move
+s/workingtree/working tree/
+s/workingtree/working tree/
+factory needed
+needed
+please use another variable name method parameters
+s/workingtree/working tree/
+s/worktree/working tree/
+s/worktree/working tree/
+please add bug number
+think change quite mature rfc removed
+please remove
+think rebased removed also
+lot similar identical code blocks compareversionsintreehandler comparewithworkingtreehandler maybe could add another method compareutils order avoid code duplication
+hc.getconnectionattempts 3 3 failed attemps code would silently nothing three attempts line 113 retry would done retries 3. think remove check retries 3 line 113 change logi line 127
+isauthenticationfailed e und retries ==3 retry anymore make sense retry credentials
+name getname similar method names getheaderstring
+please add javadoc comment describing method returns
+ibranchnameprovider extend icommitmessageprovider
+btw think currently else branch reached anymore according plugin.xml command visible refnode tagnode additionalrefnode miss something
+comment quite correct anymore
+extension somehow hood inherit interface existing extension point commitmessageprovider check coding provider commitmessageprovider also implements new interface extension possibility made explicit plugin.xml good reason
+yes please push another change note also create change-id locally ommit described http //wiki.eclipse.org/egit/contributor_guide install_the_commit-msg_hook_in_your_repository use gerrit configuration wizard eclipse http //wiki.eclipse.org/egit/user_guide gerrit_configuration repository configured wizard change-id-button selected automatically push goes refs/for/master
+please separate commit may also add behavior user selects new branch branches dialog without selected reference branchselectionandeditdialog
+use local variable taskkey
+look existing schemas platform indeed see name attribute externalised seems clonesourceprovider changed
+platform schemas examples would object deleted
+ok removing
+done
+good catch allow move lines first line selected moving last line selectd moving
+done
+done
+done
+done
+ooh push changes next meeting thank much
+4
+retried credentials reset
+done
+header line long please look https //wiki.eclipse.org/egit/contributor_guide commit_message_guidelines
+sourceref branch name e.g origin/master master without refs/remotes/ refs/heads/ behaviour strange createbranchwizard constructor startpoint set commit branch points page knows special refs revcommit commit new revwalk repository .parsecommit repository.resolve base + ^ commit directly resolve branch branchoperationui.createwithref repository repository.getref sourceref .getname .start origin/master expanded refs/remotes/origin/master master expanded refs/heads/master
+done branchselectionandeditdialog
+done
+done
+wrong
+done
+also thought static method hesitated already mixture constants constructors admit two constructors differing type collection nice already different constructors differing arguments constructing different types results also nice think get rid different constructors go static methods different names add change one
+pssst
+done
+done
+done
+done
+done
+done
+copy/paste error s/delete/change/
+done
+test fail without fix introduced wanted provoke case modification deleted
+test fail without fix introduced wanted provoke case modification deleted
+done
+done
+done
+yes somehow forgot commit latest state change
+done
+done
+done
+done
+done
+done
+done
+done
+done
+s/a/an/
+line long
+maybe add diffformatter.setcontext 1 see comment
+two diffs separated two lines default number context lines 3 diffformatter.context see neighboring diff little bit confused widen range include neigboring diffs would still problem another diff near neighbor first neighbor already context visible editor limting context line 1
+done
+done
+done
+necessary staging view shows another repository link selection selected case staging view would opened amend mode repository
+done
+please add value plugin.properties
+maybe postpone redo/undo subsequent change
+find header first column status
+maybe add undo/redo subsequent change
+please remove rfc
+s/canceld/canceled/ maybe better rebase canceled user know term processing steps
+reversed always false let better remove reverse flag reversedlist
+done
+s/repo/repo.getdirectory
+s/repository/repository.getdirectory
+done
+done
+s/it/if/
+done
+lets better call skip instead delete commit deleted skipped rebase skip case stopped rebase
+lets better call skip instead delete commit deleted skipped rebase skip case stopped rebase
+done
+please remove rfc
+s/an/and/
+please add version x-friends label like
+please add version range
+duplicate change-id
+please remove rfc
+plan start rebase git rebase interactive view
+please remove rfc
+lot duplication different constructors could use private constructor called others repository operation null handler private rebaseoperation repository repository operation operation ref ref interactivehandler handler this.repository repository this.operation operation this.ref ref this.handler handler
+please add contributors initial class
+want change
+abort operation need rebaseinteracitvehandler.instance
+please write proper commit message
+done
+done
+line moved issquash used following lines
+c/chached/cached/
+done
+check done loop steps
+check moved case fixup line
+check work done file already written popsteps call please add test case situation
+check done loop steps
+s/contend/content/
+done
+could finally block order guarantee exception leave orig_head wrong state
+done
+please remove protected keyword class never subclassed
+done
+draft draft saved 3:35 pm unrelated change
+draft draft saved 3:35 pm unrelated change
+unrelated change
+done
+done
+s/on side/on master/
+use file.separator
+done
+done
+move two assignments modifycommitmessage method
+done
+s/contend/content/
+use file.separator move two assignments modifycommitmessage method
+done
+use file.separator move two assignments modifycommitmessage method
+done
+done
+wrong order parameters
+add file2
+done
+yes copy paste remove line additionally add new exception type situation internal exception jgit wrong usage api
+optional could add refs/stash
+better return null refs otherwise empty popup
+please describe purpose change
+wrong better create range 2010 2013
+extract method th
+better else non-comment case instead skipping rest continue
+needed
+s/as/as in/
+s/get's/gets/
+usually use upper case begin
+preselection reset medium got lost
+lower case sentence trailing whitespace
+please use braces http //wiki.eclipse.org/egit/contributor_guide braces_for_one-line_statements
+breaks disabling button case multi selection case refname null indeed clear maybe better put two different statements if/else block okbutton.setenabled false else okbutton.setenabled iscurrentbranch refname
+header lines usually start upper case
+yes actually first
+else
+unnecessary whitespace change
+happens result.getseverity istatus.error operation operation.begin
+could extract method whole block e.g handleerror
+else
+return statement removed
+unnecessary instantiate concrete class need dialogmessage nothing else use abstractrebasecommandhandler rebasecurrentref new abstractrebasecommandhandler jobname uitext.rebasecurrentrefcommand_rebasecanceledmessage instead
+please remove constructor see comment rebasecurrenthandler
+assume excluding current branch done order avoid current local branch input createbranchwizard needed anymore solution one local branch pointing currently selected commit chosen default checked optional fix also change changing getbranchesexcludingcurrent
+seems reasonable stop visiting children project shared however know change fixes bugs fact project shared git also checked inside method repositoryutil.isignored used
+please mention bug 336291
+line could moved block improve readability
+fails information squash lost another status merged_squashed_not_committed
+newhead contain old commit javadoc says object head points merge directly related change mergebase null case resolve merge merger calculate common base commit seems exposed caller
+maybe add test testnofastforwardnocommit noff flag
+s/direction/directory/
+lot duplicate code method please refactor common code
+wonder would also work compareutils.compareworkspacewithref getrepository file commit.getname null file instance java.io.file
+done
+could tolerant allow whitepace leave gerrit complain whitespace
+done
+done
+think disconnect bottom
+far understand method calculatecommitmessage used ask provided instances icommitmessageprovider done message set yet method name misleading 'll push another implementation findoffsetofchangeidline jgit subsequent commit
+done
+bug changeidutil looked existing changeid looking message.indexof change_id fixed change test changeid valid footer last paragraph contained line text 'll change test make clear
+bug changeidutil looked existing changeid looking message.indexof change_id fixed change test changeid valid footer last paragraph contained line text 'll change test make clear
+delimiter needed find footer separated empty line rest egit may use windows line delimiters
+done
+done
+done
+done
+revcommit.getfooterlines would refactored heavily fit needs would extract method takes byte array furthermore interested footerlines would rather reuse logic changeidutil
+done
+done
+done
+done
+mnemonic missing 't
+s/ammend/amend/
+agree dariusz think change still leaves possibilities usage egit could e.g bring non-modal dialog editing message hand would handle situations user unwanted things like committing resetting
+make class public
+find method name misleading first thought want test edit command rebase
+done
+tested tested work
+done
+done
+done
+done
+please add line break e.g could
+use getrepository method
+done
+necessary
+done
+menu entry also visible nodes greyed please display node cases
+think element create menu entry entry associate handler command
+maybe could propose branches remote started wizard
+bundles versioned packages version= 2.1.0 please also add
+right hope matthias change change-id i99c34657e6c5485a1303a13c4126b0049ea350d9 improve response time reading history thus would need optimizations anymore
+done
+done
+done
+done
+done
+done
+done good catch
+sounds reasonable fact chris discussed exactly yesterday githistorypage refactored general change mention would good first step thinks could change follow-up change
+missing licence header could add mathias author
+todo removed
+sounds good
+even better would looked remote tracking branch configured sourcename could reuse jgit branchconfig.getremotetrackingbranch
+strictly seen makes real sense user pushes repo configured branch pushes another one would say wrong suggest remote branch happens one name
+npe user selects uri push assist config occur refcontentassistprovider used given remote think fix would somehow pass uri refcontentassistprovider simplepushrefwizard
+oh see
+please describe change commit message create new commit
+s/additionalrefschange/additionalrefschanged/
+s/be changes to/be changed way that/ s/becomse/becomes/
+could extract method logic
+ah see use-case branchconfig.getremotetrackingbranch used show branch status behave like native git show branch status relative remote branches
+could maybe reuse jgit branchconfig.getremotetrackingbranch
+s/bug-id/bug/
+maybe could add term using rebase skip somehow make clearer user
+part change please make clearer change return new rebaseresult
+s/bug-id /bug
+oh yes better read manual instead true additional value remote applies cloned repo
+whitespace error
+git documentation parameter called source prefix would prefer stick
+git documentation parameter called destination prefix would prefer stick
+bug 367707
+robin think obsolete open dialog remote branch node repositories view selecting create branch branch preselected combo box
+already coding line 311 ff used dialog opened suggestion made base ref starts remotes tag think makes sense e.g. local branch created fetch gerrit funcionality called change/3435/1 suggested name 1. care much think important behavior consistent two cases opening dialog branch switching source ref dialog drop reflected coding also
+last sentence complete think able fetch changes gerrit need select project shared git repository configured gerrit remote repository
+think reliable
+path simple i.e project name ppath.lastsegment .equals path true consequence locatiouri set null default location parameter insidews taken account case please fix think ppath.lastsegment .equals path insidews would work
+remove test fix bug 307140 still allow moving project subfolder
+simple rename rename project default location eclipse workspace folder project located also renamed case still handled gitmovedeletehook work rename project located default location
+test fails machine version 3.7.0 build id i20110613-1736 ever work bug 307410 prevent user entering subfolder current folder move dialog think removing test
+typo s/we/will
+p2 test succeeds gitmovedeletehook nothing eclipse moves repositoryprovider property gitprovider still contains old repositorymapping gitmovedeletehook nothing wrt repositorymapping condition newlocationfile.getabsolutepath .contains srcm.getrepository .getworktree .getabsolutepath line 217 fulfilled project outside eclipse workspace gitmovedeletehook would try something would fail java.lang.stringindexoutofboundsexception line 231
+fact project moved think test method name misleading
+remove check moving subfolder still work eclipse 3.7.0. fix bug 307140 allow moving subfolder prevents enter location moveproject dialog order avoid deletion project
+leads java.lang.stringindexoutofboundsexception rename project repository project folder located outside eclipse workspace case location change error think reported comment 2 bug 334112. mabe could fix another change could mention commit message limitation
+please check additionally sourcelocation equal newlocation case simple rename allow
+thought something like sourcelocation.isprefixof newlocation sourcelocation.equals newlocation catch case project renamed moved another location think works eclipse react renewing repository mapping could even skip step moveindexcontent case relative paths change however propose handle case renaming project another change agree could remove change test testmoveprojectcontaininggitrepo submit change afterwards make proposal mind rename case
+two variables needed line 257. please move line
+method moveproject gets really long could extract blocks methods
+test scenario newlocation c /eclipse/workspaces/junit-workspace/p2 gitdir c /eclipse/workspaces/junit-workspace/project-1/.git condition would also apply moved project within repository location folder containing repo newlocation c /myfolder/p2 gitdir c /myfolder/myrepo/.git sourcelocation c /myfolder/myrepo/project-1 moving projects outside repo never worked therefore may ignore one
+need project.move already acquires scheduling rules move operation
+method never used please remove add next commit add test case calls method eclipse even compile org.eclipse.jdt.core.compiler.problem.unusedprivatemember=error org.eclipse.jdt.core.prefs
+please also override hashcode see e.g http //stackoverflow.com/questions/27581/overriding-equals-and-hashcode-in-java
+commit message header fit one line please see http //wiki.eclipse.org/egit/contributor_guide commit_message_guidelines
+please add change-id line commit message push second patch set http //wiki.eclipse.org/egit/contributor_guide to_update_an_existing_change_with_a_new_commit change-id found gerrit header case i2270ec8b68886b3715f2e07099d96486e5dcb504 best practice include change-id already first commit working gerrit
+specify filter filewalker files listed file list tried add followfilter filewalker like however work filewalker handle rename need somehow set correct file filter selection commitgraphtable changes
+please add line bug 302549 please forget add change-id
+please add signed-off-by line
+please use term start-point
+please refer specific client jgit used many environments clear create branch dialog means maybe write something like used tools determine default start-point
+start-point
+need condition itemcount 0 sortedrefs.size 0 created new repo made one commit created new branch b check open team switch see branch b
+use default 0 number context lines would prefer also use default patch wizard maybe could even make default number context lines configurable new preference
+typo name
+s/deletation/deletion
+exactly happens repository contain commit please make clearer better write comment line commented
+please remove line changes tests
+change semantics method interestingly test cases still work implementation indeed method name said index contains whole repository tree staged files http //book.git-scm.com/7_the_git_index.html please introduce new method maybe isstaged returns true index content differs repo content
+missing
+sure nullpointer related fact file deleted also get cases
+revwalk would sufficient
+btw using parent case change index compare editor show head~1 right hand side instead head 'll reopen bug 326674 addressed issue
+s/user/use
+done
+done
+done
+done
+done
+done
+method call meant create folder containing data repository want create folder could split method createuniquetestgitdir two parts one creates folder one creates git dir calls
+please state e.g jgit throws
+could add else statement check necessary directory newly created
+please throw exception
+please throw exception
+ah tested first tried default refspec work added refspec refs/heads/* refs/heads/* current fallback egit think problematic would like add lookup remote config change leave issue another change
+done
+nonsense undo change
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done wondered nulloutputstream jdk
+done
+done
+done writing javadoc realized sufficient pass diffentry parameter therefore removed oldmode newmode
+done
+done
+done
+done
+done
+done
+instance variable
+move block historypage would introduce new dependency commitgraphtable githistorypage
+would expect would expect comparison index head
+ah thanks see familiar solution works
+understand myselection null tests whenever case get empty selection return value convertselection usecase evalutation ievaluationcontext
+commit action enabled select non-project resource method getrepositories work projects
+style nit formatting
+currently checked branch preselected
+thing interested repository name \ inside would work windows therefore matter split string often case \ unix folder name
+path like file ///c\a\b\c.git/ occur linux mac os x thought test relevant windows method gethumanishname needs take accout \ linux mac os x. method gethumanishname many tests running platforms
+commands call first method constructor please stick pattern
+following lines code purpose transfer folder paths list contained files right took time figure maybe would useful extract method
+use treewalk.setrecursive true instead if/else statement
+better treewalk.setrecursive true see
+better startwalk.setrecursive true see
+may add tow tests case changes index test public void testupdateworkingdirectoryfromindex throws exception checkoutcommand co git.checkout file written writetrashfile test.txt 3a git.add .addfilepattern test.txt .call written writetrashfile test.txt assertequals read written co.addpath test.txt .call assertequals 3a read written assertequals c read new file db.getworktree test2.txt test public void testupdateworkingdirectoryfromheadwithindexchange throws exception checkoutcommand co git.checkout file written writetrashfile test.txt 3a git.add .addfilepattern test.txt .call written writetrashfile test.txt assertequals read written co.addpath test.txt .setstartpoint head .call assertequals 3 read written assertequals c read new file db.getworktree test2.txt
+work windows must always use paths jgit
+switch create branch sound good would stick switch new branch
+done
+done
+work ref denotes tag
+ref commit head branch message different case
+done also thought
+done
+done
+done
+different initialization createchangeid like clearer default change initialization createchangeid later order improve consistency
+usage static import inconsistent objectid.zeroid
+trailing whitespace
+unintended reformatting
+code work file checked-in changed working dir index method iscachedentry returns false consequence later comparison done base commit parent head file head staged changes **is** index gitfilerevision.inindex db gitpath returns meaningful value comparewithindexactionhandler method getheadtypedelement check file exists index returns gitcomparefilerevisioneditorinput.emptytypedelement text 0 index yes uses gitfilerevision.inindex
+method name describe method general simply compares entries two different trees equal right want know entry index file check entry index different entry head
+returns parent head commit head commit
+compare index corresponding compare edior use term index node synchronize view use staged consistent would say use staged version
+done
+done
+thanks pointing second thing proposed first fix existing methods
+whitespace error
+duplicate
+done
+done
+cleaned extracted
+todo removed commit
+todo removed commit
+line moved seems belong parameter direction
+done
+typo syncinfo class uses
+determine instead determinate
+determines instead determinate
+user instead used
+think also exclude java workspace model org.eclipse.jdt.ui.modelprovider also operates local workspace think returning gitchangesetmodelprovider gsd.shouldincludelocal filtering predefined list
+scrambled already would say fixed another commit
+also thought think obvious choice user made aware fact decision made
+done
+typo notignoredfilter
+typo muti
+typo muti
+done
+code gitdocument populate priciple way better missed take account encoding file level however still bug charset null work file encoding different fixed bug refactored reuse
+moment failingpathes one entry right iteration stopped first failure really need map mergefailurereason map belonging one path think fact one mergefailurereason whole merge
+failingpaths
+todo removed
+removed test merge fails index dirty purpose
+get incoming decorator local change outgoing decorator remote change
+still understand need ancestor gitmodel ancestor used synchronize framework calculate entries three way compare gitmodel compare parent still would say return null gitmodelblob.getancestor javadoc returns null input ancestor two-way compare case one parent things course get complicated returning ancestor commit definitely wrong
+think title misleading change tests
+anyobjectid overwrites equals work anyhow change solve error face still see projects conflicting folders path relative git repository relative workspace
+imho use this.srcrev ow.parsecommit srcref.getobjectid use revwalk instead objectwalk
+please remove outcommented code
+whitespace error
+empty javadoc
+empty javadoc
+right thing outgoing incoming commits created srcrev dstrev want get commits common base srcrev commits common base dstrev right already determined base commit gitbaseresourcevarianttree two revwalks one base srcrev one base dstrev
+implementation complicated uses many low level jgit features use api log command instead incoming outgoing changes git git new git repo git.log .addrange ancestorcommit srcrev .call .iterator
+whitespace error
+whitespace error
+whitespace error
+please return null three way compare meaningless case
+way round eclipse standard newer version left side
+done
+done
+name method base confusing use method gitbaseresourcevarianttree gitremoteresourcevarianttree call method getrevcommit
+could directly return dstrev next three lines anything
+already know local base version equal kind in_sync incoming right getcomparator .compare base remote in_sync else incoming
+could also use getcomparator .compare base remote need id would better encapsulate responsibility comparison comparator
+displayed compare editor think blobid make sense user know woth would like see commit id commit id also diplayed elsewhere ui would still adhere javadoc return content identifier used differentiate versions revisions *same* resource
+get error next statement java.lang.illegalstateexception repository already exists use new testrepository repository repository instead created instance filerepository
+get error next statement java.lang.illegalstateexception repository already exists use new testrepository repository repository instead created instance filerepository
+wonder could make maybe use org.eclipse.team.core.variants.threewayresourcecomparator content comparison things
+difference shouldincludelocal would suggest always use workspace version source see also general comments
+input stream never closed even leads test errors project deleted teardown
+input stream never closed even leads test errors project deleted teardown
+input stream never closed even leads test errors project deleted teardown
+input stream also never closed
+rebase failed class compile types arraylist list git refupdate ref objectid removed list imports still referenced
+see comment gitremoteresourcevarianttree.getbaserevcommit
+done
+think block covering cases file exist update flag set file index file added newly created index else added new test method testaddwithoutparameterupdate commented existing one testaddwithparameterupdate handle six interesting cases test case file exists neither workdir inindex
+still understand logic behind t0 etc timestamp t0 value dcit.getdircacheentry .getlastmodified third treeset long modtimes get t0 map lookup repositorytestcase prefilled modtimes
+done
+typo constants
+done
+iterate
+done
+use e
+super.getentrylastmodified + 1 headset include enry timestamp super.getentrylastmodified
+really annoying seems encoding problem try fix
+code 2b083c3f21a3553b6211c978b744f2259c8fd9ca missing
+use dircache.getentrycount instead deprecated gitindex
+done 'll fix factory methods subsequent commit
+done
+done
+done
+solved using proposal
+problem still exists posted question jgit-dev
+leads fact builder.commit method dircacheentry.mightberacilyclean always returns true timestamp wiped really intended
+done
+ok keep
+really create repo call repo.create otherwise repository really exist assume sooner later lead problems would use localdiskrepositorytestcase base class copy test files new location ensures teardown method remove repository
+version umber added
+stick pattern use import-package org.eclipse.jgit.ignore version= 0.9.0,0.10.0
+typo getparticipant
+seems wrong class gitbranchsubscriberparticipant interestingly enough works string attribute know would used
+seems wrong class gitbranchsubscriberparticipant see also comment patch set 1
+compare another branch commit point common ancestor commit
+method expected return path file renamed given commit instead returns first path file ever investigated found renamecallback work properly soon rw.next called first time method renamed called renames ever happened testcase revwalkfollowfiltertest reveal tests renames detected detected right commit 'll push failing testcase comparewithpreviousactionhandler also work properly e.g. rename file follow-up commit file compare preivious last commit tries use old path find parent commit
+s/cherrypickcomamnd/cherrypickcommand/
+blub
+bla
+done
+done caller uses modalcontext
+yes right even make use egit repository cache return submodulerepositories still check instances handled e.g git repositories view staging view e.g close repository created submodule repository time selection changed eclipse would get lot instances
+unrelated change besides javadoc says default value swt.close|swt.min|swt.max|swt.resize subclassers call setshellstyle change value rather overriding method
+want change even good reason changing done another commit
+think rather overwrite gettitle
+sorry fault completely wrong track actually way common egit code base
+works fine besides corner case commented staging view line 1880. hand small step comes working submodules nested one eclipse project still history view team menu compare replace menu toolbar buttons reflog view decorators still connected submodule repository sure forgot something sure places simply changed way staging view sure concept repositorymapping would still suited one repository per project
+done
+works think quite fit overall concept repositorymapping class assumption one repository methods like getreporelativepath make use assumption many many places egit call getrepository 'd change places use getrepository iresource res submodule walk case submodules may get performance penalty
+done
+think adapted also mapping.getrepository resource
+wrong statement limit size shown objects maxcommits clearly incomplete true true always case maxcommits 0 loadedcommits.size maxcommits check missing commits loaded unfortunately easily done swtcommitlist workaround check new commits loaded current invocation generatehistoryjob retriggered rendering table listener added consgtructor commitgraphtable retriggering done implement incremental loading step loop check incomplete done method updateui generatehistoryjob render ui start endless loop anymore fix locally agree would rather push new gerrit change quite different change
+think bug really address issue fixed addresses checkbox repositoryselectionpage however fixed commit 4d1447a12d3d88 if2191024644a95665aaa7a8e178e06b587a93baf issue fixed addressed bug 359714 erroneously closed duplicate bug 349527
+think obvious user preference changed unchecking check box preference apply dialog also e.g repositoryselectionpage
+merge tool still work repository eclipse project exists please either explain commit message implement also
+maybe resourceutil.splitpathsbyrepository use repositorymapping rather repositoryutil.getconfiguredrepositories together repositorycache.lookuprepository gitdir like repositoriesview quickly looked
+returns repos entry repositorymapping repositorymapping.getmapping ipath path returns repo path project
+could rename variable repositoryconfig
+ah see repositoryconfig baseconfig
+spelling pastes
+currently action nothing one file selected either disable action anything e.g paste file names separated comma
+spelling commit message dialog
+please change commit message new name constant
+constant changed jgit change-id iea944e11e80134fbafc4c47383457d5ed11a4164
+please check null mybaseref null create new branch commit history view.in case mybasecommit different null
+whitespace error
+please format line long
+could extract method logic
+please format line long
+please format line long
+please fix formatting
+s/on/on a/
+whitespace error
+done
+done
+done
+done
+think bug form based editor indent source editor include spaces test box looks ugly prefer
+done
+done
+done
+done
+done
+done
+done
+done
+remove class
+remove class
+machine behavior following test without change therefore remove changes
+remove class yet needed
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+changed uri opinion sufficient think uri needs externalized
+done
+done
+done
+done
+done
+done
+done
+no-op
+done
+done
+done
+done
+deleted supplied implementation
+done
+done
+reformatted line long
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+think problem occur anymore indigo http //help.eclipse.org/indigo/index.jsp topic= 2forg.eclipse.jdt.doc.user 2fwhatsnew 2fjdt_whatsnew.html missing javadoc tags method type parameters longer reported default see add empty javadoc tags necessary
+could please describe need empty java doc entry get compile error eclipse without
+preselection added
+button label ok confusing please change create branch
+typo checking
+dialog currently checked branch preselected
+please add bugs 300282 320263
+done
+unsafe cast return value could resourcelist
+leads classcastexception resource folder project better check case show diff course
+doubt user expects would expect dialog opens choose revision compare
+would suggest show short message commit like history view class commitmessageviewer using element.getcomment would consistent relevant user
